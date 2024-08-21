@@ -1,0 +1,89 @@
+/* 全体的なレイアウト */
+
+/* タイトル */
+.text-3xl { 
+  font-size: 1.5rem; /* タイトルのフォントサイズを小さく */
+  color: white;
+  margin-bottom: 1rem;
+  word-break: break-all; 
+}
+/* 日時 */
+.text-xl {
+  font-size: 1.5rem; 
+  color: white;
+  margin-bottom: 4rem;
+ }
+
+/* コンテナ */
+.container { 
+  max-width: 768px; 
+  width: 100%; 
+}
+
+/* グリッドレイアウト */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem; 
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+/* 各メニューアイテム */
+.flex {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.w-20 {
+  width: 5rem; 
+}
+.h-20 {
+  height: 5rem;
+}
+.bg-orange-500 {
+  background-color: #f97316; 
+  border-radius: 0.5rem; 
+  transition: transform 0.3s ease-in-out
+}
+/* ラベル */
+.text-sm {
+  color: white;
+  margin-top: 0.5rem;
+}
+
+/* 各メニューアイテム */
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem; 
+  border-radius: 0.8rem; 
+  background-color: #f97316;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.menu-item .text-sm { 
+  margin-top: 0.5rem;
+}
+
+.menu-item svg {
+  width: 30px;  
+  height: 30px;
+}
+
+/* 追加: タイトルのスタイル */
+.title-container { /* タイトル用のコンテナを追加 */
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; /* 左寄せ */
+  margin-bottom: 2rem;    /* 下部に余白を追加 */
+}

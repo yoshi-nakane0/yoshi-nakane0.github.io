@@ -1,0 +1,10 @@
+main { /* main要素にパディングを追加 */
+    padding-top: 1rem;
+    padding-left: 2rem; /* 上下左右に2remのスペース */
+    padding-right: 2rem;
+}
+body {
+    background: linear-gradient(to bottom right, #222, #333);
+    min-height: 100vh; 
+    margin: 0; 
+  }
