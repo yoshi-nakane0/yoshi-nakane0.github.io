@@ -31,7 +31,7 @@ const SchedulePage: React.FC = () => {
 
   return (
     <div className="schedule-header">
-        <Link to="/" className="header-button">Back to Home!!!!!</Link>
+        <Link to="/" className="header-button">Back to Home</Link>
         <button onClick={togglePastEvents} className="header-button">
           {showPastEvents ? '非表示' : '表示'}
         </button>
