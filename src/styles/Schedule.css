@@ -22,7 +22,10 @@
   cursor: pointer;
 }
 .schedule-date-title {
+  color: #ffffff; /* 白 */
   font-size: 13px; /* 例: タイトルのフォントサイズ */
+  margin-bottom: 0px; /* 見出しとテーブル間の余白 */
+
 }
 .schedule-table {
   width: 100%;
@@ -40,6 +43,7 @@
   border-bottom: 1px solid #45423a;
   overflow: hidden; /* セルの内容がはき出した場合の処理 */
   white-space: nowrap; /* 単語の途中で改行しない */
+  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
 }
 .schedule-table th,
 .schedule-table td {
@@ -47,15 +51,5 @@
   background-color: #212121; /* ダークグレーの背景 */
   border: 1px solid #45423a;
   white-space: nowrap;
-}
-.schedule-date {
-  margin-bottom: 5px;
-}
-.schedule-date h2 {
-  color: #ffffff; /* 白 */
-  margin-bottom: 0px; /* 見出しとテーブル間の余白 */
-}
-.schedule-table tbody, 
-.schedule-table td {
-  font-size: 13px; /* デフォルトのフォントサイズに戻す */
+  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
 }
