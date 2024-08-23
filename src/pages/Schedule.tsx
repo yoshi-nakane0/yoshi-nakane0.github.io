@@ -1,4 +1,3 @@
-/* Schedule.tsx */
 import React, { useState } from 'react';
 import data from '../context/data.json';
 import '../styles/Schedule.css';
