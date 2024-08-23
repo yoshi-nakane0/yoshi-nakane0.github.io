@@ -2,54 +2,79 @@
 .schedule-header {
   display: flex;
   flex-direction: column; /* ボタンを縦に並べる */
-  align-items: flex-end; /* ボタンを左寄せ */
+  align-items: flex-start; /* ボタン左右配置 */
   font-size: 0.7rem;
 }
-.header-button {
-  background-color: #3a5b02; /* 背景を透明にする */
-  border: none; /* ボーダーを消す */
-  color: #e0e0e0; /* テキストカラーを明るいグレーにする */
-  padding: 1px 5px; /* パディングを調整 */
-  margin-bottom: 1px; /* ボタン間の余白 */
-  font-size: 0.7rem;
-  cursor: pointer; /* カーソルをポインターにする */
-  text-decoration: none; /* リンクの装飾を消す */
+.status-bar {
+  background-color: #1c1c1c; 
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 2px 5px; 
+  border-bottom: 1px solid #45423a;
+}
+.status-bar-item {
+  background-color: #536c52;
+  padding: 3px 5px;
+  font-size: 0.6rem !important; /* フォントサイズを強制 */
+  color: #ffffff;
+  border: none !important; /* すべての枠線を強制的に消去 */
+  margin-left: 5px; 
+  cursor: pointer;
 }
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
-  /*table-layout: fixed;*//*表をモバイルに固定化*/
-}
-.schedule-table td:nth-child(1) {
-  width: 60px; 
-}
-.schedule-table td:nth-child(2) {
-  width: 35px;
-}
-.schedule-table td:nth-child(3) {
-  width: 70%; 
 }
 .schedule-table th {
   padding: 3px;
   text-align: center;
-  font-size: 0.5rem; /* ヘッダーのフォントサイズをさらに小さく */
+  font-size: 0.7rem; /* ヘッダーのフォントサイズをさらに小さく */
+}
+
+
+/* Schedule.css */
+/* ... (既存のスタイル) ... */
+
+.schedule-table-container { /* スクロール可能なコンテナのスタイル */
+  overflow-x: auto; /* 横方向のスクロールを有効化 */
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* 最小幅を設定して、コンテンツが縮小しすぎるのを防ぐ */
+}
+
+/* ... (既存のスタイル) ... */
+
+
+
+
+.schedule-table td:nth-child(1) {
+  width: 60px; 
+  width: auto; 
+}
+.schedule-table td:nth-child(2) {
+  width: 35px;
+  width: auto; 
+}
+.schedule-table td:nth-child(3) {
+  width: 70%; 
+  width: auto; 
 }
 .schedule-table td {
   padding: 3px; /* セルのパディングを小さく */
   border-bottom: 1px solid #45423a;
   font-size: 0.6rem; /* セルのフォントサイズをさらに小さく */
   overflow: hidden; /* セルの内容がはき出した場合の処理 */
-  text-overflow: ellipsis; /* はき出した部分に "..." を表示 */
   white-space: nowrap; /* 単語の途中で改行しない */
-}.schedule-table th,
+}
+.schedule-table th,
 .schedule-table td {
-  color: #e0e0e0;
+  color: #ffffff;
   background-color: #212121; /* ダークグレーの背景 */
   border: 1px solid #45423a;
-}
-/* 特定の列の幅を指定する場合 */
-.schedule-table td:nth-child(3) { /* 3列目の幅を指定 */
-  width: auto; 
 }
 .schedule-date {
   margin-bottom: 10px;
@@ -58,7 +83,6 @@
   color: #ffffff; /* 白 */
   margin-bottom: 3px; /* 見出しとテーブル間の余白 */
 }
-
 .schedule-date-title {
-  font-size: 0.5rem; /* 例: タイトルのフォントサイズ */
+  font-size: 0.7rem; /* 例: タイトルのフォントサイズ */
 }
