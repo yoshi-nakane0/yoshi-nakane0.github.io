@@ -29,28 +29,8 @@
 .schedule-table th {
   padding: 3px;
   text-align: center;
-  font-size: 0.7rem; /* ヘッダーのフォントサイズをさらに小さく */
+  font-size: 0.6rem; /* ヘッダーのフォントサイズをさらに小さく */
 }
-
-
-/* Schedule.css */
-/* ... (既存のスタイル) ... */
-
-.schedule-table-container { /* スクロール可能なコンテナのスタイル */
-  overflow-x: auto; /* 横方向のスクロールを有効化 */
-}
-
-.schedule-table {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 600px; /* 最小幅を設定して、コンテンツが縮小しすぎるのを防ぐ */
-}
-
-/* ... (既存のスタイル) ... */
-
-
-
-
 .schedule-table td:nth-child(1) {
   width: 60px; 
   width: auto; 
@@ -66,7 +46,7 @@
 .schedule-table td {
   padding: 3px; /* セルのパディングを小さく */
   border-bottom: 1px solid #45423a;
-  font-size: 0.6rem; /* セルのフォントサイズをさらに小さく */
+  font-size: 0.7rem; /* セルのフォントサイズをさらに小さく */
   overflow: hidden; /* セルの内容がはき出した場合の処理 */
   white-space: nowrap; /* 単語の途中で改行しない */
 }
