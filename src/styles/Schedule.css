@@ -25,7 +25,9 @@
   color: #ffffff; /* 白 */
   font-size: 13px; /* 例: タイトルのフォントサイズ */
   margin-bottom: 0px; /* 見出しとテーブル間の余白 */
-
+}
+.schedule-table-container{
+  font-size: 13px; /* テーブル全体のフォントサイズを設定 */  
 }
 .schedule-table {
   width: 100%;
@@ -38,12 +40,14 @@
 .schedule-table-container { /* スクロールを有効にするためのコンテナ */
   overflow-x: auto;
 }
+.schedule-table{
+  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
+}
 .schedule-table td {
   padding: 3px; /* セルのパディングを小さく */
   border-bottom: 1px solid #45423a;
   overflow: hidden; /* セルの内容がはき出した場合の処理 */
   white-space: nowrap; /* 単語の途中で改行しない */
-  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
 }
 .schedule-table th,
 .schedule-table td {
@@ -51,5 +55,4 @@
   background-color: #212121; /* ダークグレーの背景 */
   border: 1px solid #45423a;
   white-space: nowrap;
-  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
 }
