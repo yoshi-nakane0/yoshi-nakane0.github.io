@@ -1,7 +1,6 @@
 /* Schedule.css */
 .schedule-header {
   display: flex;
-  flex-direction: column; /* ボタンを縦に並べる */
   align-items: flex-start; /* ボタン左右配置 */
 }
 .status-bar {
@@ -26,22 +25,17 @@
   font-size: 13px; /* 例: タイトルのフォントサイズ */
   margin-bottom: 0px; /* 見出しとテーブル間の余白 */
 }
-.schedule-table-container{
-  font-size: 13px; /* テーブル全体のフォントサイズを設定 */  
-}
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
-}
-.schedule-table th {
-  text-align: center;
+  table-layout: auto; 
 }
 .schedule-table-container { /* スクロールを有効にするためのコンテナ */
   overflow-x: auto;
 }
 .schedule-table{
-  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
+  height: 100%;
+  border-collapse: collapse;
 }
 .schedule-table td {
   padding: 3px; /* セルのパディングを小さく */
@@ -53,6 +47,7 @@
 .schedule-table td {
   color: #ffffff;
   background-color: #212121; /* ダークグレーの背景 */
-  border: 1px solid #45423a;
+  border: 2px solid #717170;
   white-space: nowrap;
+  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
 }
