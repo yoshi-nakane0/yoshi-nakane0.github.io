@@ -19,7 +19,7 @@ const SchedulePage: React.FC = () => {
           ホーム
         </button>
         <button onClick={() => setShowPastEvents(!showPastEvents)} className="status-bar-item">
-          {showPastEvents ? '非表示' : '表示'}
+          {showPastEvents ? '切替' : '切替'}
         </button>
         <button className="status-bar-item" onClick={() => { window.location.href = 'https://www.forexfactory.com/calendar'; }}>
           リンク
