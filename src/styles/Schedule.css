@@ -21,11 +21,8 @@
   margin-left: 5px; 
   cursor: pointer;
 }
-.event-cell {
-  font-size: 13px !important; 
-}
 .schedule-date-title {
-  font-size: 12px; /* 例: タイトルのフォントサイズ */
+  font-size: 13px; /* 例: タイトルのフォントサイズ */
 }
 .schedule-table {
   width: 100%;
@@ -57,4 +54,8 @@
 .schedule-date h2 {
   color: #ffffff; /* 白 */
   margin-bottom: 0px; /* 見出しとテーブル間の余白 */
+}
+.schedule-table tbody, 
+.schedule-table td {
+  font-size: 13px; /* デフォルトのフォントサイズに戻す */
 }
