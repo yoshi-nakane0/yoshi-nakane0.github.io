@@ -1,3 +1,4 @@
+/* Schedule.css */
 .schedule-header {
   display: flex;
   flex-direction: column; /* ボタンを縦に並べる */
@@ -19,6 +20,12 @@
   border: none !important; /* すべての枠線を強制的に消去 */
   margin-left: 5px; 
   cursor: pointer;
+}
+.event-cell {
+  font-size: 13px !important; 
+}
+.schedule-date-title {
+  font-size: 12px; /* 例: タイトルのフォントサイズ */
 }
 .schedule-table {
   width: 100%;
@@ -50,7 +57,4 @@
 .schedule-date h2 {
   color: #ffffff; /* 白 */
   margin-bottom: 0px; /* 見出しとテーブル間の余白 */
-}
-.schedule-date-title {
-  font-size: 12px; /* 例: タイトルのフォントサイズ */
 }
