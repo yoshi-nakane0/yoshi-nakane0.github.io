@@ -49,5 +49,5 @@
   background-color: #212121; /* ダークグレーの背景 */
   border: 2px solid #717170;
   white-space: nowrap;
-  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
+  /*font-size: 13px; /* テーブル全体のフォントサイズを設定 */
 }
