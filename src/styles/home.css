@@ -1,0 +1,41 @@
+/* タイトル */
+.text-3xl { 
+    font-size: 25px; /* タイトルのフォントサイズを小さく */
+    color: white;
+    margin-bottom: 1rem;
+    word-break: break-all; 
+  }
+  /* 日時 */
+  .text-xl {
+    font-size: 20px; 
+    color: white;
+    margin-bottom: 4rem;
+   }
+/* グリッドレイアウト */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; 
+  }
+/* ラベル */
+.text-sm {
+    color: white;
+    margin-top: 0.5rem;
+  }
+/* 各メニューアイテム */
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem; 
+    border-radius: 0.8rem; 
+    background-color: #f97316;
+    transition: transform 0.3s ease-in-out;
+  }
+ .menu-item:hover {
+    transform: scale(1.1) rotate(3deg);
+  }
+ .menu-item .text-sm { 
+    margin-top: 10px;
+  }

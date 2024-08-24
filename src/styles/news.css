@@ -1,0 +1,49 @@
+.news-container {
+    max-width: 800px; /* 最大幅を調整 */
+    margin: 0 auto; /* 左右中央揃え */
+    padding: 3px;
+}
+.news-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.news-list {
+    padding: 1px;
+}
+.news-item {
+    background-color: #0c5318;
+
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 2px 3px;
+}
+.news-link {
+    display: flex; /* flexboxで横並びにする */
+    align-items: center; /* 垂直方向に中央揃え */
+    text-decoration: none; /* リンクの下線を消す */
+    padding: 1px 1px;
+    background-color: #0c5318; /* 背景色を設定 */
+}
+.news-title {
+    text-align: left;
+    line-height: 15px; /* 例: 行の高さを1.2倍に設定 */
+    flex-grow: 1; 
+    font-size: 12px;
+    color: #fff;
+    background-color: #0c5318;
+    display: -webkit-box; /* 必須 */
+    -webkit-line-clamp: 2; /* 行数を指定 */
+    -webkit-box-orient: vertical; /* 必須 */
+    overflow: hidden;
+    padding-left: 2px;
+    
+}
+.news-content {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+}
