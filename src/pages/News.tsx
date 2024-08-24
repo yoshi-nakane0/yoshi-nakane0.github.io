@@ -30,15 +30,14 @@ const News = () => {
       <h1 className="news-heading">ニュース</h1>
 
       <ul className="news-list">
-        {newsItems.map((item: { title: string; content: string }, index: number) => (
-          <li key={index} className="news-item">
-            <button onClick={() => handleClick(item.content)} className="news-link">
-              <span className="news-title">{item.title}</span>
-            </button>
-          </li>
-        ))}
-      </ul>
-
+  {newsItems.map((item: { title: string; content: string }, index: number) => (
+    <li key={index} className="news-item">
+      <span onClick={() => handleClick(item.content)} className="news-link">
+        {item.title}
+      </span>
+    </li>
+  ))}
+</ul>
       {selectedNews && (
         <div className="news-content">
           <p dangerouslySetInnerHTML={{ __html: selectedNews.replace(/\n/g, '<br />') }} /> 
