@@ -5,7 +5,7 @@ import '../styles/Schedule.css';
 
 const SchedulePage: React.FC = () => {
   const today = new Date().toISOString().slice(0, 10);
-  const [showPastEvents, setShowPastEvents] = useState(true);
+  const [showPastEvents, setShowPastEvents] = useState(false);
 
   const groupedEvents = data.reduce((acc, item) => {
     acc[item.date] = acc[item.date] || [];
@@ -51,7 +51,9 @@ const SchedulePage: React.FC = () => {
                       <tr key={index}>
                         <td>{item.time || '-'}</td>
                         <td>{item.currency || '-'}</td>
-                        <td className="event-cell">{item.event}</td>
+                        <td className="event-cell">
+  {item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}
+</td>
                         <td>{item.impact || '-'}</td>
                         <td>{item.previous || '-'}</td>
                         <td>{item.forecast || '-'}</td>
