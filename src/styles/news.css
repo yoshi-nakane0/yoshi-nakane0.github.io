@@ -34,7 +34,6 @@
     color: #fff;
     background-color: #0c5318;
     display: -webkit-box; /* 必須 */
-    -webkit-line-clamp: 2; /* 行数を指定 */
     -webkit-box-orient: vertical; /* 必須 */
     overflow: hidden;
     padding-left: 2px;
