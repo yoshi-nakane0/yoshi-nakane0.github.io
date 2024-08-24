@@ -3,6 +3,8 @@ import {
   CalendarDays, Newspaper, Landmark, Target, Hand, Flame, Zap, Wifi, Settings
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import '../styles/home.css';
+
 
 const menuItems = [
   { icon: CalendarDays, label: 'Schedule', link: '/schedule' },
