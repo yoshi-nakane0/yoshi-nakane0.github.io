@@ -1,41 +1,110 @@
-/* タイトル */
-.text-3xl { 
-    font-size: 25px; /* タイトルのフォントサイズを小さく */
-    color: white;
-    margin-bottom: 1rem;
-    word-break: break-all; 
-  }
-  /* 日時 */
-  .text-xl {
-    font-size: 20px; 
-    color: white;
-    margin-bottom: 4rem;
-   }
-/* グリッドレイアウト */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem; 
-  }
-/* ラベル */
-.text-sm {
-    color: white;
-    margin-top: 0.5rem;
-  }
-/* 各メニューアイテム */
+/*home.css*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1E1E2E;
+  color: white;
+}
+.app-container {
+  max-width: 414px;
+  margin: 0 auto;
+  height: 100vh;
+  background: linear-gradient(180deg, #464678 50%, #1E1E2E 300%);
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  margin-top: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* 上部に寄せる */
+  padding-top: 50px;  /* 上部に余白を追加 */
+  position: relative;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.menu-item-wrapper {
+  background-color: rgba(41, 45, 53, 0.7);  /* 背景色を少し透明に */
+  border-radius: 30px;
+  padding: 15px;
+}
 .menu-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem; 
-    border-radius: 0.8rem; 
-    background-color: #f97316;
-    transition: transform 0.3s ease-in-out;
-  }
- .menu-item:hover {
-    transform: scale(1.1) rotate(3deg);
-  }
- .menu-item .text-sm { 
-    margin-top: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* 影を追加して立体感を出す */
+}
+.menu-item span {
+  margin-top: 8px;
+  font-size: 15px;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background-color: #2D2D44;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.nav-button {
+  background: none;
+  border: none;
+  color: #B3B3B3;
+  cursor: pointer;
+}
+.nav-button.active {
+  color: #f1eaed83;
+}
+/* Add these styles for the pink blob */
+.app-container::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(233, 30, 99, 0.2);
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: 0;
+}
+/* Add these styles for the blue blob */
+.app-container::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(74, 144, 226, 0.2);
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: 0;
+}
+/* ボタンのホバーエフェクトを強化 */
+.menu-item:hover .icon-wrapper {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
