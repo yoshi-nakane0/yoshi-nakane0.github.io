@@ -28,7 +28,7 @@ const EarningsTable = () => {
       <table className="earnings-table">
         <thead>
           <tr className="earnings-table-header">
-            <th>発表日</th>
+            <th className="revenue-header">発表日</th>
             <th>企業名</th>
             <th>業種</th>
             <th>EPS</th>
