@@ -1,0 +1,32 @@
+/* Earning */
+.earnings-table-container {
+    width: 100%; /* 画面幅に合わせる */
+    color: #fff;
+    font-size: 14px;
+    background-color: #333;
+}
+.revenue-header {
+    white-space: nowrap; /* 折り返しを防ぐ */
+}
+.earnings-table {
+    width: 100%;
+    min-width: 700px;
+    background-color: #212121;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+.earnings-table td {
+    padding: 8px;
+    border: 1px solid #717170;
+    white-space: nowrap; /* セル内のテキストを折り返さない */
+}
+/* 必要に応じて、各列の幅などを調整 */
+
+.earnings-table th, 
+.earnings-table td {
+    padding: 8px;
+    border:1px solid #717170;
+}
+.circle {
+    text-align: center;
+}
