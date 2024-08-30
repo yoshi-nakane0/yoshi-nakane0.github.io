@@ -9,7 +9,7 @@ import '../styles/home.css';
 const menuItems = [
   { icon: CalendarDays, label: 'Schedule', link: '/schedule' },
   { icon: Newspaper, label: 'News', link: '/news' },
-  { icon: Landmark, label: 'Finances', link: '/finances' },
+  { icon: Landmark, label: 'Earning', link: '/earning' },
   { icon: Target, label: 'Target', link: '/target' },
   { icon: Hand, label: 'Control', link: '/control' },
   { icon: Flame, label: 'Trending', link: '/trending' },
