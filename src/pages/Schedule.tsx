@@ -51,10 +51,8 @@ const SchedulePage: React.FC = () => {
                       <tr key={index}>
                         <td>{item.time || '-'}</td>
                         <td>{item.currency || '-'}</td>
-                        <td className="event-cell">
-  {item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}
-</td>
-                        <td>{item.impact || '-'}</td>
+                        <td className={item.impact === '★★' ? 'important-event' : ''}>{item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}</td>
+                        <td className={item.impact === '★★' ? 'important-impact' : item.impact === '★' ? 'medium-event' : ''}>{item.impact || '-'}</td>                        
                         <td>{item.previous || '-'}</td>
                         <td>{item.forecast || '-'}</td>
                         <td>{item.actual || '-'}</td>
