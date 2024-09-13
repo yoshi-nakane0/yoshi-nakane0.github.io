@@ -1,7 +1,7 @@
 /* Schedule.tsx */
 import React, { useState } from 'react';
 import data from '../context/schedule.json';
-import '../styles/Schedule.css';
+import '../styles/schedule.css';
 
 const SchedulePage: React.FC = () => {
   const today = new Date().toISOString().slice(0, 10);
