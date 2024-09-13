@@ -1,0 +1,66 @@
+/* schedule.css */
+.schedule-header {
+  display: flex;
+  align-items: flex-start; /* ボタン左右配置 */
+}
+.status-bar {
+  background-color: #1c1c1c; 
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 2px 5px; 
+  border-bottom: 1px solid #45423a;
+}
+.status-bar-item {
+  background-color: #536c52;
+  padding: 3px 5px;
+  font-size: 12px;
+  color: #ffffff;
+  border: none !important; /* すべての枠線を強制的に消去 */
+  margin-left: 5px; 
+  cursor: pointer;
+}
+.schedule-date-title {
+  color: #ffffff; /* 白 */
+  font-size: 13px; /* 例: タイトルのフォントサイズ */
+  margin-bottom: 0px; /* 見出しとテーブル間の余白 */
+}
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto; 
+}
+.schedule-table-container { /* スクロールを有効にするためのコンテナ */
+  overflow-x: auto;
+}
+.schedule-table{
+  height: 100%;
+  border-collapse: collapse;
+}
+.schedule-table td {
+  padding: 3px; /* セルのパディングを小さく */
+  border-bottom: 1px solid #45423a;
+  overflow: hidden; /* セルの内容がはき出した場合の処理 */
+  white-space: nowrap; /* 単語の途中で改行しない */
+}
+.schedule-table th,
+.schedule-table td {
+  background-color: #212121; /* ダークグレーの背景 */
+  border: 2px solid #717170;
+  white-space: nowrap;
+  font-size: 13px; /* テーブル全体のフォントサイズを設定 */
+}
+.important-event {
+  color: #f99393; /* 赤色のテキスト */
+}
+.important-impact{
+  color: #fbb0b0; /* 赤色のテキスト */
+}
+.schedule-table td:nth-child(1), /* 時間 */
+.schedule-table td:nth-child(2), /* 国 */
+.schedule-table td:nth-child(4), /* 重要度 */
+.schedule-table td:nth-child(5), /* 前回 */
+.schedule-table td:nth-child(6), /* 予想 */
+.schedule-table td:nth-child(7) { /* 結果 */
+  text-align: center;
+}
