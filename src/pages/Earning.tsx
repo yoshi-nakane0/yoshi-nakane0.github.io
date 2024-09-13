@@ -17,6 +17,16 @@ const EarningsTable = () => {
     return `${month}/${day}`;
   };
 
+  // 文字列に基づいてスタイルを決定する関数
+  const getNearestStyle = (text) => {
+    if (text.includes('上昇')||text.includes('上方修正')) {
+      return { color: 'limegreen' }; // 黄緑色
+    } else if (text.includes('下落')||text.includes('下方修正')) {
+      return { color: 'red' }; // 赤色
+    } else {
+      return {}; // デフォルトのスタイル
+    }
+  };
   return (
     <div className="earnings-table-container">
       <div className="status-bar"> 
@@ -29,13 +39,14 @@ const EarningsTable = () => {
         <thead>
           <tr className="earnings-table-header">
             <th className="revenue-header">発表日</th>
-            <th>企業名</th>
+            <th>企業</th>
             <th>業種</th>
             <th>EPS</th>
-            <th>EPS</th>
+            <th>予想</th>
+            <th className="revenue-header">次回</th>
             <th className="revenue-header">売上</th>
-            <th className="revenue-header">売上</th>
-            <th className="revenue-header">直近</th>
+            <th className="revenue-header">予想</th>
+            <th className="revenue-header">次回</th>
           </tr>
         </thead>
         <tbody>
@@ -45,10 +56,23 @@ const EarningsTable = () => {
               <td>{item.company}</td>
               <td>{item.industry}</td>
               <td className="circle">{item.eps1}</td>
-              <td>{item.eps2}</td>
+              <td className="circle" style={getNearestStyle(item.eps2)}> 
+                {item.eps2.includes('上方修正') && '↑'}
+                {item.eps2.includes('下方修正') && '↓'}
+              </td>
+              <td className="circle" style={getNearestStyle(item.near1)}> 
+                {item.near1.includes('上昇') && '↑'}
+                {item.near1.includes('下落') && '↓'}
+              </td>
               <td className="circle">{item.sales1}</td>
-              <td>{item.sales2}</td>
-              <td>{item.nearest}</td>
+              <td className="circle" style={getNearestStyle(item.sales2)}> 
+                {item.sales2.includes('上方修正') && '↑'}
+                {item.sales2.includes('下方修正') && '↓'}
+              </td>
+              <td className="circle" style={getNearestStyle(item.near2)}> 
+                {item.near2.includes('上昇') && '↑'}
+                {item.near2.includes('下落') && '↓'}
+              </td>
             </tr>
           ))}
         </tbody>
