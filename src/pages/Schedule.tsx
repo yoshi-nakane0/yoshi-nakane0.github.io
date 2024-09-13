@@ -1,6 +1,6 @@
 /* Schedule.tsx */
 import React, { useState } from 'react';
-import data from '../context/data.json';
+import data from '../context/schedule.json';
 import '../styles/Schedule.css';
 
 const SchedulePage: React.FC = () => {
