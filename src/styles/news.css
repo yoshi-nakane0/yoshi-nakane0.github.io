@@ -1,3 +1,6 @@
+.status-bar-item{
+    font-size: 14px;
+}
 .news-container {
     max-width: 800px; /* 最大幅を調整 */
     margin: 0 auto; /* 左右中央揃え */
@@ -18,7 +21,7 @@
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     padding: 2px 3px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .news-link {
     display: flex; /* flexboxで横並びにする */
@@ -32,7 +35,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
 .news-content {
     margin-top: 20px;
     padding: 10px;

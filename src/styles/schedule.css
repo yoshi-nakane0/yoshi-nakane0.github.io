@@ -14,7 +14,7 @@
 .status-bar-item {
   background-color: #536c52;
   padding: 3px 5px;
-  font-size: 12px;
+  font-size: 13px;
   color: #ffffff;
   border: none !important; /* すべての枠線を強制的に消去 */
   margin-left: 5px; 
@@ -22,7 +22,7 @@
 }
 .schedule-date-title {
   color: #ffffff; /* 白 */
-  font-size: 13px; /* 例: タイトルのフォントサイズ */
+  font-size: 14px; /* 例: タイトルのフォントサイズ */
   margin-bottom: 0px; /* 見出しとテーブル間の余白 */
 }
 .schedule-table {
