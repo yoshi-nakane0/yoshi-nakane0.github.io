@@ -22,9 +22,10 @@ const SchedulePage: React.FC = () => {
         <button onClick={() => setShowPastEvents(!showPastEvents)} className="status-bar-item">
           {showPastEvents ? '切替' : '切替'}
         </button>
-        <button className="status-bar-item" onClick={() => { window.location.href = 'https://www.forexfactory.com/calendar'; }}>
-          リンク
-        </button>
+        <button className="status-bar-item" onClick={() => { window.open('https://www.forexfactory.com/calendar', '_blank'); }}>
+  リンク
+</button>
+
       </div>
       
       <div className="schedule-content">
