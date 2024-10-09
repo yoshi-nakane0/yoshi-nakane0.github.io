@@ -1,4 +1,4 @@
-/* リセットと基本スタイル */
+/* target.css */
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +29,6 @@ body {
 /* 現在値入力欄 */
 .current-price-input {
     background-color: #2c2c2c; /* ダークグレーに変更 */
-    padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
     display: flex;
@@ -47,7 +46,6 @@ body {
     background-color: #1e1e1e;
     color: #ffffff;
     font-size: 16px;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .current-price-input input::placeholder {
     color: #bbb;
@@ -102,19 +100,16 @@ h2 {
     background-color: #1f1f1f; /* 背景をダークに変更 */
     margin-bottom: 10px;
 }
-
 .trade-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
-
 .trade-header h3 {
     color: #f4f4f4;
     font-size: 18px;
 }
-
 .add-button {
     background-color: #727171;
     color: #fff;
@@ -125,16 +120,13 @@ h2 {
     font-size: 14px;
     transition: background-color 0.3s ease;
 }
-
 .add-button:hover {
     background-color: #606060;
 }
-
 .trade-history table {
     width: 100%;
     border-collapse: collapse;
 }
-
 .trade-history th,
 .trade-history td {
     border: 1px solid #444; /* ボーダーをダークグレーに変更 */
@@ -142,12 +134,10 @@ h2 {
     text-align: center;
     font-size: 12px;
 }
-
 .trade-history th {
     background-color: #333; /* ヘッダーの背景色をダークに */
     color: #fff;
 }
-
 .trade-history input,
 .trade-history select {
     width: 100%;
@@ -158,7 +148,6 @@ h2 {
     color: #ffffff;
     transition: border-color 0.3s ease, background-color 0.3s ease;
 }
-
 .delete-button {
     background-color: #727171;
     color: #fff;
@@ -172,12 +161,10 @@ h2 {
 .delete-button:hover {
     background-color: #626161;
 }
-
 /* 追加: テキスト色のクラス */
 .text-red {
     color: #ff4d4f; /* 明るい赤色 */
 }
-
 .text-blue {
     color: #18ff56; /* 明るい青色 */
 }
@@ -213,7 +200,7 @@ h2 {
     outline: none;
 }
 
-/* 時間データテーブル */
+/* Moving Averageテーブル */
 .time-data-table {
     background-color: #1f1f1f; /* 背景をダークに変更 */
     border-radius: 8px;
@@ -221,13 +208,13 @@ h2 {
 }
 .time-data-table h2 {
     color: #f4f4f4;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .time-data-table table {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
-    font-size: 14px;
 }
 .time-data-table th,
 .time-data-table td {
@@ -238,31 +225,26 @@ h2 {
 }
 .time-data-table th {
     background-color: #333; 
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .time-data-table input {
     background-color: #2a2a2a;
     color: #ffffff;
     border: 1px solid #555;
-    padding: 3px;
+    padding-top: 3px;
     border-radius: 4px;
     width: 100%;
-    box-sizing: border-box;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
 }
-
 .time-data-table input:focus {
     border-color: #34db77;
     outline: none;
 }
-
 /* エラースタイル */
 .time-data-table input.error {
     background-color: #e74c3c; /* エラー時の背景色を赤に */
     border-color: #c0392b;
 }
-
 /* レスポンシブデザイン */
 @media (max-width: 768px) {
     /* エントリーサマリウィジェットのレスポンシブ設定を修正 */
@@ -270,12 +252,6 @@ h2 {
         /* flex-wrap: wrap; 削除 */
         justify-content: space-between; /* スペースを均等に */
     }
-
-    .summary-item {
-        flex: 1 1 45%; /* 各アイテムが幅の45%を占めるように設定 */
-        margin: 10px;  /* アイテム間のマージンを追加 */
-    }
-
     .trade-header {
         flex-direction: column;
         align-items: flex-start;
