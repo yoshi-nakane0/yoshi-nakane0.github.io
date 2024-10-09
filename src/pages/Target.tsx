@@ -234,7 +234,8 @@ export default function TargetPage() {
           </table>
         </div>
         
-        <div className="time-data-table">
+        <div className="time-data-table" style={{ overflowX: 'auto' }}>
+
           <h2>Moving Average (10.8)</h2>
           <table>
             <thead>
