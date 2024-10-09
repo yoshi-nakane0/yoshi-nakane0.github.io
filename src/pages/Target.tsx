@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/target.css';
 
 export default function TargetPage() {
-  // tradesをlocalStorageから取得、なければデフォルト値を使用
+
   const [trades, setTrades] = useState(() => {
     const savedTrades = localStorage.getItem('trades');
     return savedTrades
@@ -12,7 +12,6 @@ export default function TargetPage() {
         ];
   });
 
-  // timeDataをlocalStorageから取得、なければデフォルト値を使用
   const [timeData, setTimeData] = useState(() => {
     const savedTimeData = localStorage.getItem('timeData');
     return savedTimeData
@@ -24,13 +23,11 @@ export default function TargetPage() {
         ];
   });
 
-  // 現在値をlocalStorageから取得、なければデフォルト値を使用
   const [currentPrice, setCurrentPrice] = useState(() => {
     const savedCurrentPrice = localStorage.getItem('currentPrice');
     return savedCurrentPrice ? savedCurrentPrice : '';
   });
 
-  // Entry PointのLongとShortをlocalStorageから取得、なければデフォルト値を使用
   const [entryLong, setEntryLong] = useState(() => {
     const savedEntryLong = localStorage.getItem('entryLong');
     return savedEntryLong ? savedEntryLong : '';
@@ -41,32 +38,26 @@ export default function TargetPage() {
     return savedEntryShort ? savedEntryShort : '';
   });
 
-  // tradesが変更されたらlocalStorageに保存
   useEffect(() => {
     localStorage.setItem('trades', JSON.stringify(trades));
   }, [trades]);
 
-  // timeDataが変更されたらlocalStorageに保存
   useEffect(() => {
     localStorage.setItem('timeData', JSON.stringify(timeData));
   }, [timeData]);
 
-  // currentPriceが変更されたらlocalStorageに保存
   useEffect(() => {
     localStorage.setItem('currentPrice', currentPrice);
   }, [currentPrice]);
 
-  // Entry PointのLongが変更されたらlocalStorageに保存
   useEffect(() => {
     localStorage.setItem('entryLong', entryLong);
   }, [entryLong]);
 
-  // Entry PointのShortが変更されたらlocalStorageに保存
   useEffect(() => {
     localStorage.setItem('entryShort', entryShort);
   }, [entryShort]);
 
-  // 数値にカンマを追加するヘルパー関数
   const formatNumberWithCommas = (value: string): string => {
     const num = value.replace(/,/g, '');
     if (num === '') return '';
@@ -78,7 +69,6 @@ export default function TargetPage() {
   const handleTradeChange = (id: number, field: string, value: string) => {
     let formattedValue = value;
     if (field === 'entryPrice' || field === 'exitPrice') {
-      // カンマを追加
       formattedValue = formatNumberWithCommas(value);
     }
     setTrades(trades.map(trade =>
@@ -105,7 +95,7 @@ export default function TargetPage() {
     const newId = trades.length > 0 ? Math.max(...trades.map(t => t.id)) + 1 : 1;
     setTrades([
       ...trades,
-      { id: newId, date: '', type: 'Long', entryPrice: '', exitPrice: '' },
+      { id: newId, date: '', type: '', entryPrice: '', exitPrice: '' },
     ]);
   };
 
@@ -126,7 +116,6 @@ export default function TargetPage() {
     setTimeData(updatedTimeData);
   };
 
-  // ムービングアベレージ入力フィールドのエラーチェック
   const getMaErrorStatus = (value: string): boolean => {
     if (currentPrice === '') return false;
     const numericCurrentPrice = Number(currentPrice.replace(/,/g, ''));
@@ -137,11 +126,11 @@ export default function TargetPage() {
 
   return (
     <div className="main-container">
-      <header className="header">
-        <button className="home-button" onClick={() => window.location.href = '/'}>
-          HOME
+      <div className="status-bar">
+        <button className="status-bar-item" onClick={() => { window.location.href = '/'; }}>
+          ホーム
         </button>
-      </header>
+      </div>
       <div className="content">
         {/* 現在値入力欄の追加 */}
         <h2>Current Value</h2>
@@ -150,7 +139,7 @@ export default function TargetPage() {
             type="text"
             id="currentPrice"
             value={currentPrice}
-            placeholder="現在値を入力"
+            placeholder=""
             onChange={e => handleCurrentPriceChange(e.target.value)}
           />
         </div>
@@ -185,9 +174,9 @@ export default function TargetPage() {
             <thead>
               <tr>
                 <th>Day</th>
-                <th>Entry Type</th>
-                <th>Entry Price</th>
-                <th>Exit Price</th>
+                <th>Type</th>
+                <th>Entry</th>
+                <th>Exit</th>
                 <th>Action</th> 
               </tr>
             </thead>
@@ -198,10 +187,11 @@ export default function TargetPage() {
                   <tr key={trade.id}>
                     <td>
                       <input
-                        type="date"
+                        type="text"
                         value={trade.date}
+                        placeholder=""
                         onChange={e => handleTradeChange(trade.id, 'date', e.target.value)}
-                        className={colorClass}
+                        className={`${colorClass} date-input`}
                       />
                     </td>
                     <td>
@@ -210,6 +200,7 @@ export default function TargetPage() {
                         onChange={e => handleTradeChange(trade.id, 'type', e.target.value)}
                         className={colorClass}
                       >
+                        <option value=""></option>
                         <option value="Long">Long</option>
                         <option value="Short">Short</option>
                       </select>
@@ -218,7 +209,7 @@ export default function TargetPage() {
                       <input
                         type="text"
                         value={trade.entryPrice}
-                        placeholder="エントリー価格"
+                        placeholder=""
                         onChange={e => handleTradeChange(trade.id, 'entryPrice', e.target.value)}
                         className={colorClass}
                       />
@@ -227,7 +218,7 @@ export default function TargetPage() {
                       <input
                         type="text"
                         value={trade.exitPrice}
-                        placeholder="エグジット価格"
+                        placeholder=""
                         onChange={e => handleTradeChange(trade.id, 'exitPrice', e.target.value)}
                         className={colorClass}
                       />
