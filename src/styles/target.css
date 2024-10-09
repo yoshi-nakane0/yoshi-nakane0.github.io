@@ -205,6 +205,8 @@ h2 {
     background-color: #1f1f1f; /* 背景をダークに変更 */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    max-width: 100%;
+    box-sizing: border-box;
 }
 .time-data-table h2 {
     color: #f4f4f4;
@@ -221,7 +223,7 @@ h2 {
     border: 1px solid #444; 
     padding: 2px;
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
 }
 .time-data-table th {
     background-color: #333; 
