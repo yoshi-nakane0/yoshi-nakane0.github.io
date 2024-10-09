@@ -207,6 +207,7 @@ h2 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.5);
     max-width: 100%;
     box-sizing: border-box;
+    overflow-x: auto; /* モバイルで表示が収まるようにスクロール可能に */
 }
 .time-data-table h2 {
     color: #f4f4f4;
@@ -216,8 +217,9 @@ h2 {
 .time-data-table table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;
+    table-layout: fixed; /* 固定レイアウトで横幅を調整 */
 }
+
 .time-data-table th,
 .time-data-table td {
     border: 1px solid #444; 
@@ -225,6 +227,7 @@ h2 {
     text-align: center;
     font-size: 11px;
 }
+
 .time-data-table th {
     background-color: #333; 
     font-size: 12px;
@@ -236,8 +239,10 @@ h2 {
     border: 1px solid #555;
     padding-top: 3px;
     border-radius: 4px;
-    width: 100%;
+    width: 80%; /* 幅を狭めて横幅を調整 */
+    max-width: 100px; /* モバイルで入力フィールドの幅を狭く設定 */
 }
+
 .time-data-table input:focus {
     border-color: #34db77;
     outline: none;
@@ -270,8 +275,8 @@ h2 {
         overflow-x: auto;
         white-space: nowrap;
     }
+    
 }
-
 @media (max-width: 480px) {
     .header {
         padding: 10px; /* パディングを調整 */
@@ -311,7 +316,7 @@ h2 {
     .trade-history select,
     .time-data-table input,
     .summary-item input {
-        font-size: 15px;
+        font-size: 14px;
         padding-left: 5px;
     }
 
