@@ -242,7 +242,7 @@ export default function TargetPage() {
                 {timeData.map((period) => (
                   <React.Fragment key={period.period}>
                     <th>{period.period}</th>
-                    <th>Value</th>
+                    <th>Val</th>
                   </React.Fragment>
                 ))}
               </tr>
@@ -253,7 +253,7 @@ export default function TargetPage() {
                 <tr key={index}>
                   {timeData.map((period, pIdx) => (
                     <React.Fragment key={pIdx}>
-                      <td>{period.times[index]} MA</td>
+                      <td>{period.times[index]} M</td>
                       <td>
                         <input
                           type="text"
