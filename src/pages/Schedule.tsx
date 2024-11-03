@@ -41,6 +41,16 @@ const SchedulePage: React.FC = () => {
       // If same country, sort by time using minutes conversion
       const timeA = timeToMinutes(a.time);
       const timeB = timeToMinutes(b.time);
+
+      // For Japan (ascending order - earlier times first)
+      if (a.currency === '日本') {
+        return timeA - timeB;
+      }
+      // For US (descending order - later times first)
+      if (a.currency === '米国') {
+        return timeB - timeA;
+      }
+      // For other countries, use ascending order
       return timeA - timeB;
     });
   });
