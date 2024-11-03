@@ -7,11 +7,26 @@ const SchedulePage: React.FC = () => {
   const today = new Date().toISOString().slice(0, 10);
   const [showPastEvents, setShowPastEvents] = useState(false);
 
+  // Group events by date and sort them
   const groupedEvents = data.reduce((acc, item) => {
     acc[item.date] = acc[item.date] || [];
     acc[item.date].push(item);
     return acc;
   }, {} as { [date: string]: typeof data });
+
+  // Sort events within each date by time
+  Object.values(groupedEvents).forEach(events => {
+    events.sort((a, b) => {
+      if (!a.time) return 1;
+      if (!b.time) return -1;
+      return a.time.localeCompare(b.time);
+    });
+  });
+
+  // Sort dates
+  const sortedDates = Object.keys(groupedEvents).sort((a, b) => 
+    new Date(a).getTime() - new Date(b).getTime()
+  );
 
   return (
     <div className="schedule-container"> 
@@ -22,19 +37,21 @@ const SchedulePage: React.FC = () => {
         <button onClick={() => setShowPastEvents(!showPastEvents)} className="status-bar-item">
           {showPastEvents ? '切替' : '切替'}
         </button>
-        <button className="status-bar-item" onClick={() => { window.open('https://www.forexfactory.com/calendar', '_blank'); }}>
-  リンク
-</button>
-
+        <button 
+          className="status-bar-item" 
+          onClick={() => { window.open('https://www.forexfactory.com/calendar', '_blank'); }}
+        >
+          リンク
+        </button>
       </div>
       
       <div className="schedule-content">
-        {Object.entries(groupedEvents)
-          .filter(([date]) => showPastEvents || date >= today)
-          .map(([date, events]) => (
+        {sortedDates
+          .filter(date => showPastEvents || date >= today)
+          .map(date => (
             <div key={date} className="schedule-date">
               <h2 className="schedule-date-title">{date}</h2>
-              <div className="schedule-table-container"> {/* スクロール可能なコンテナを追加 */}
+              <div className="schedule-table-container">
                 <table className="schedule-table">
                   <thead>
                     <tr>
@@ -48,12 +65,19 @@ const SchedulePage: React.FC = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {events.map((item, index) => (
+                    {groupedEvents[date].map((item, index) => (
                       <tr key={index}>
                         <td>{item.time || '-'}</td>
                         <td>{item.currency || '-'}</td>
-                        <td className={item.impact === '★★' ? 'important-event' : ''}>{item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}</td>
-                        <td className={item.impact === '★★' ? 'important-impact' : item.impact === '★' ? 'medium-event' : ''}>{item.impact || '-'}</td>                        
+                        <td className={item.impact === '★★' ? 'important-event' : ''}>
+                          {item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}
+                        </td>
+                        <td className={
+                          item.impact === '★★' ? 'important-impact' : 
+                          item.impact === '★' ? 'medium-event' : ''
+                        }>
+                          {item.impact || '-'}
+                        </td>                        
                         <td>{item.previous || '-'}</td>
                         <td>{item.forecast || '-'}</td>
                         <td>{item.actual || '-'}</td>
