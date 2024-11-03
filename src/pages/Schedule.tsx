@@ -9,8 +9,8 @@ const SchedulePage: React.FC = () => {
 
   // Define country priority (JPY first, then USD)
   const countryPriority: { [key: string]: number } = {
-    'JPY': 1,
-    'USD': 2,
+    '日本': 1,
+    '米国': 2,
   };
 
   // Group events by date and sort them
