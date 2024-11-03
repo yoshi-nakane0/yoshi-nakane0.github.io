@@ -7,6 +7,12 @@ const SchedulePage: React.FC = () => {
   const today = new Date().toISOString().slice(0, 10);
   const [showPastEvents, setShowPastEvents] = useState(false);
 
+  // Define country priority (JPY first, then USD)
+  const countryPriority: { [key: string]: number } = {
+    'JPY': 1,
+    'USD': 2,
+  };
+
   // Group events by date and sort them
   const groupedEvents = data.reduce((acc, item) => {
     acc[item.date] = acc[item.date] || [];
@@ -14,9 +20,18 @@ const SchedulePage: React.FC = () => {
     return acc;
   }, {} as { [date: string]: typeof data });
 
-  // Sort events within each date by time
+  // Sort events within each date by country priority and time
   Object.values(groupedEvents).forEach(events => {
     events.sort((a, b) => {
+      // First sort by country priority
+      const priorityA = countryPriority[a.currency] || 999;
+      const priorityB = countryPriority[b.currency] || 999;
+      
+      if (priorityA !== priorityB) {
+        return priorityA - priorityB;
+      }
+      
+      // If same country, sort by time
       if (!a.time) return 1;
       if (!b.time) return -1;
       return a.time.localeCompare(b.time);
