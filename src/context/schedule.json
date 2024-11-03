@@ -1,5 +1,55 @@
 [
     {
+        "date": "2024-11-06",
+        "time": "null",
+        "currency": "米国",
+        "event": "大統領選挙",
+        "impact": "★★",
+        "previous": "null",
+        "forecast": "null",
+        "actual": "null"
+    },
+    {
+        "date": "2024-11-06",
+        "time": "null",
+        "currency": "米国",
+        "event": "議会選挙",
+        "impact": "★★",
+        "previous": "null",
+        "forecast": "null",
+        "actual": "null"
+    },
+    {
+        "date": "2024-11-19",
+        "time": "null",
+        "currency": "米国",
+        "event": "G20会議",
+        "impact": "null",
+        "previous": "null",
+        "forecast": "null",
+        "actual": "null"
+    },
+    {
+        "date": "2024-11-20",
+        "time": "null",
+        "currency": "米国",
+        "event": "G20会議",
+        "impact": "null",
+        "previous": "null",
+        "forecast": "null",
+        "actual": "null"
+    },
+    {
+        "date": "2024-11-26",
+        "time": "14:00",
+        "currency": "日本",
+        "event": "日銀コアCPI",
+        "impact": "null",
+        "previous": "null",
+        "forecast": "null",
+        "actual": "null"
+    },
+    {
         "date": "2024-10-01",
         "time": "8:30",
         "currency": "日本",
@@ -3831,7 +3881,7 @@
     },
     {
         "date": "2024-12-19",
-        "time": "24:00:00",
+        "time": "0:00",
         "currency": "米国",
         "event": "11月中古住宅販売件数(前月比)",
         "impact": "★",
