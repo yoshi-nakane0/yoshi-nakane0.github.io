@@ -1,5 +1,5 @@
 main { /* main要素にパディングを追加 */
-    padding-top: 1rem;
+    padding-top: 5rem;
     padding-left: 2rem; /* 上下左右に2remのスペース */
     padding-right: 2rem;
 }
