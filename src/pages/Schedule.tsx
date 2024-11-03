@@ -7,58 +7,11 @@ const SchedulePage: React.FC = () => {
   const today = new Date().toISOString().slice(0, 10);
   const [showPastEvents, setShowPastEvents] = useState(false);
 
-  // Define country priority (JPY first, then USD)
-  const countryPriority: { [key: string]: number } = {
-    '日本': 1,
-    '米国': 2,
-  };
-
-  // Helper function to convert time string to minutes for comparison
-  const timeToMinutes = (timeStr: string | null): number => {
-    if (!timeStr) return Number.MAX_VALUE;
-    const [hours, minutes] = timeStr.split(':').map(Number);
-    return hours * 60 + minutes;
-  };
-
-  // Group events by date and sort them
   const groupedEvents = data.reduce((acc, item) => {
     acc[item.date] = acc[item.date] || [];
     acc[item.date].push(item);
     return acc;
   }, {} as { [date: string]: typeof data });
-
-  // Sort events within each date by country priority and time
-  Object.values(groupedEvents).forEach(events => {
-    events.sort((a, b) => {
-      // First sort by country priority
-      const priorityA = countryPriority[a.currency] || 999;
-      const priorityB = countryPriority[b.currency] || 999;
-      
-      if (priorityA !== priorityB) {
-        return priorityA - priorityB;
-      }
-      
-      // If same country, sort by time using minutes conversion
-      const timeA = timeToMinutes(a.time);
-      const timeB = timeToMinutes(b.time);
-
-      // For Japan (ascending order - earlier times first)
-      if (a.currency === '日本') {
-        return timeA - timeB;
-      }
-      // For US (descending order - later times first)
-      if (a.currency === '米国') {
-        return timeB - timeA;
-      }
-      // For other countries, use ascending order
-      return timeA - timeB;
-    });
-  });
-
-  // Sort dates
-  const sortedDates = Object.keys(groupedEvents).sort((a, b) => 
-    new Date(a).getTime() - new Date(b).getTime()
-  );
 
   return (
     <div className="schedule-container"> 
@@ -69,21 +22,19 @@ const SchedulePage: React.FC = () => {
         <button onClick={() => setShowPastEvents(!showPastEvents)} className="status-bar-item">
           {showPastEvents ? '切替' : '切替'}
         </button>
-        <button 
-          className="status-bar-item" 
-          onClick={() => { window.open('https://www.forexfactory.com/calendar', '_blank'); }}
-        >
-          リンク
-        </button>
+        <button className="status-bar-item" onClick={() => { window.open('https://www.forexfactory.com/calendar', '_blank'); }}>
+  リンク
+</button>
+
       </div>
       
       <div className="schedule-content">
-        {sortedDates
-          .filter(date => showPastEvents || date >= today)
-          .map(date => (
+        {Object.entries(groupedEvents)
+          .filter(([date]) => showPastEvents || date >= today)
+          .map(([date, events]) => (
             <div key={date} className="schedule-date">
               <h2 className="schedule-date-title">{date}</h2>
-              <div className="schedule-table-container">
+              <div className="schedule-table-container"> {/* スクロール可能なコンテナを追加 */}
                 <table className="schedule-table">
                   <thead>
                     <tr>
@@ -97,19 +48,12 @@ const SchedulePage: React.FC = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {groupedEvents[date].map((item, index) => (
+                    {events.map((item, index) => (
                       <tr key={index}>
                         <td>{item.time || '-'}</td>
                         <td>{item.currency || '-'}</td>
-                        <td className={item.impact === '★★' ? 'important-event' : ''}>
-                          {item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}
-                        </td>
-                        <td className={
-                          item.impact === '★★' ? 'important-impact' : 
-                          item.impact === '★' ? 'medium-event' : ''
-                        }>
-                          {item.impact || '-'}
-                        </td>                        
+                        <td className={item.impact === '★★' ? 'important-event' : ''}>{item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}</td>
+                        <td className={item.impact === '★★' ? 'important-impact' : item.impact === '★' ? 'medium-event' : ''}>{item.impact || '-'}</td>                        
                         <td>{item.previous || '-'}</td>
                         <td>{item.forecast || '-'}</td>
                         <td>{item.actual || '-'}</td>
