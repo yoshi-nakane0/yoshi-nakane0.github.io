@@ -13,6 +13,13 @@ const SchedulePage: React.FC = () => {
     '米国': 2,
   };
 
+  // Helper function to convert time string to minutes for comparison
+  const timeToMinutes = (timeStr: string | null): number => {
+    if (!timeStr) return Number.MAX_VALUE;
+    const [hours, minutes] = timeStr.split(':').map(Number);
+    return hours * 60 + minutes;
+  };
+
   // Group events by date and sort them
   const groupedEvents = data.reduce((acc, item) => {
     acc[item.date] = acc[item.date] || [];
@@ -31,10 +38,10 @@ const SchedulePage: React.FC = () => {
         return priorityA - priorityB;
       }
       
-      // If same country, sort by time
-      if (!a.time) return 1;
-      if (!b.time) return -1;
-      return a.time.localeCompare(b.time);
+      // If same country, sort by time using minutes conversion
+      const timeA = timeToMinutes(a.time);
+      const timeB = timeToMinutes(b.time);
+      return timeA - timeB;
     });
   });
 
