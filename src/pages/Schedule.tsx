@@ -23,9 +23,8 @@ const SchedulePage: React.FC = () => {
           {showPastEvents ? '切替' : '切替'}
         </button>
         <button className="status-bar-item" onClick={() => { window.open('https://www.forexfactory.com/calendar', '_blank'); }}>
-  リンク
-</button>
-
+          リンク
+        </button>
       </div>
       
       <div className="schedule-content">
@@ -52,8 +51,12 @@ const SchedulePage: React.FC = () => {
                       <tr key={index}>
                         <td>{item.time || '-'}</td>
                         <td>{item.currency || '-'}</td>
-                        <td className={item.impact === '★★' ? 'important-event' : ''}>{item.event.length > 25 ? item.event.substring(0, 25) + "..." : item.event}</td>
-                        <td className={item.impact === '★★' ? 'important-impact' : item.impact === '★' ? 'medium-event' : ''}>{item.impact || '-'}</td>                        
+                        <td className={item.impact === '★★' ? 'important-event' : ''}>
+                          {item.event.length > 30 ? item.event.substring(0, 30) + "..." : item.event}
+                        </td>
+                        <td className={item.impact === '★★' ? 'important-impact' : item.impact === '★' ? 'medium-event' : ''}>
+                          {item.impact || '-'}
+                        </td>                        
                         <td>{item.previous || '-'}</td>
                         <td>{item.forecast || '-'}</td>
                         <td>{item.actual || '-'}</td>
