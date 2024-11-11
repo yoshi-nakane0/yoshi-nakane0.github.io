@@ -1,6 +1,6 @@
 [
     {
-        "date": "2024/09/26",
+        "date": "2024-09-26",
         "market": "NASDAQ",
         "symbol": "COST",
         "company": "Costco Wholesale",
@@ -13,7 +13,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/11",
+        "date": "2024-10-11",
         "market": "NYSE",
         "symbol": "JPM",
         "company": "JPMorgan Chase",
@@ -26,7 +26,7 @@
         "near2": "売上下落"
     },
     {
-        "date": "2024/10/11",
+        "date": "2024-10-11",
         "market": "NYSE",
         "symbol": "UNH",
         "company": "UnitedHealth",
@@ -39,7 +39,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/15",
+        "date": "2024-10-15",
         "market": "NYSE",
         "symbol": "JNJ",
         "company": "Johnson & Johnson",
@@ -52,7 +52,7 @@
         "near2": "売上下落"
     },
     {
-        "date": "2024/10/15",
+        "date": "2024-10-15",
         "market": "NYSE",
         "symbol": "BAC",
         "company": "Bank of America",
@@ -65,7 +65,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/16",
+        "date": "2024-10-16",
         "market": "NASDAQ",
         "symbol": "NFLX",
         "company": "Netflix",
@@ -78,7 +78,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/17",
+        "date": "2024-10-17",
         "market": "NYSE",
         "symbol": "TSM",
         "company": "TSMC",
@@ -91,7 +91,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/18",
+        "date": "2024-10-18",
         "market": "NASDAQ",
         "symbol": "TSLA",
         "company": "Tesla",
@@ -104,7 +104,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/18",
+        "date": "2024-10-18",
         "market": "NYSE",
         "symbol": "PG",
         "company": "Procter & Gamble",
@@ -117,7 +117,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/22",
+        "date": "2024-10-22",
         "market": "NASDAQ",
         "symbol": "MSFT",
         "company": "Microsoft",
@@ -130,7 +130,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/22",
+        "date": "2024-10-22",
         "market": "NASDAQ",
         "symbol": "GOOG",
         "company": "Alphabet (Google)",
@@ -143,7 +143,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/22",
+        "date": "2024-10-22",
         "market": "NYSE",
         "symbol": "V",
         "company": "Visa",
@@ -156,7 +156,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/23",
+        "date": "2024-10-23",
         "market": "NASDAQ",
         "symbol": "META",
         "company": "Meta Platforms",
@@ -169,7 +169,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/24",
+        "date": "2024-10-24",
         "market": "NYSE",
         "symbol": "MA",
         "company": "Mastercard",
@@ -182,7 +182,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/24",
+        "date": "2024-10-24",
         "market": "NASDAQ",
         "symbol": "AMZN",
         "company": "Amazon",
@@ -195,7 +195,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/30",
+        "date": "2024-10-30",
         "market": "NYSE",
         "symbol": "LLY",
         "company": "Eli Lilly",
@@ -208,7 +208,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/31",
+        "date": "2024-10-31",
         "market": "NASDAQ",
         "symbol": "AAPL",
         "company": "Apple",
@@ -221,7 +221,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/10/31",
+        "date": "2024-10-31",
         "market": "NYSE",
         "symbol": "MRK",
         "company": "Merck",
@@ -234,7 +234,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/11/04",
+        "date": "2024-11-04",
         "market": "NYSE",
         "symbol": "BRK-B",
         "company": "Berkshire Hathaway",
@@ -247,7 +247,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/11/19",
+        "date": "2024-11-19",
         "market": "NYSE",
         "symbol": "WMT",
         "company": "Walmart",
@@ -260,7 +260,7 @@
         "near2": "売上下落"
     },
     {
-        "date": "2024/11/19",
+        "date": "2024-11-19",
         "market": "NASDAQ",
         "symbol": "NVDA",
         "company": "NVIDIA",
@@ -273,7 +273,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/12/05",
+        "date": "2024-12-05",
         "market": "NASDAQ",
         "symbol": "AVGO",
         "company": "Broadcom (AVGO)",
@@ -286,7 +286,7 @@
         "near2": "売上上昇"
     },
     {
-        "date": "2024/12/09",
+        "date": "2024-12-09",
         "market": "NYSE",
         "symbol": "ORCL",
         "company": "Oracle",
