@@ -4,10 +4,14 @@ import earningData from '../context/earning.json';
 import '../styles/earning.css';
 
 const EarningsTable = () => {
-  // Sort data by date (ascending)
-  const sortedData = earningData.sort((a, b) => {
-    return new Date(a.date).getTime() - new Date(b.date).getTime();
-  });
+  const today = new Date().toISOString().slice(0, 10);
+  
+  // Sort data by date (ascending) and filter past events
+  const sortedData = earningData
+    .filter(item => item.date >= today)
+    .sort((a, b) => {
+      return new Date(a.date).getTime() - new Date(b.date).getTime();
+    });
 
   // 日付を月/日の形式に変換する関数
   const formatDate = (dateString) => {
@@ -19,14 +23,15 @@ const EarningsTable = () => {
 
   // 文字列に基づいてスタイルを決定する関数
   const getNearestStyle = (text) => {
-    if (text.includes('上昇')||text.includes('上方修正')) {
+    if (text.includes('上昇') || text.includes('上方修正')) {
       return { color: 'limegreen' }; // 黄緑色
-    } else if (text.includes('下落')||text.includes('下方修正')) {
+    } else if (text.includes('下落') || text.includes('下方修正')) {
       return { color: 'red' }; // 赤色
     } else {
       return {}; // デフォルトのスタイル
     }
   };
+  
   return (
     <div className="earnings-table-container">
       <div className="status-bar"> 
