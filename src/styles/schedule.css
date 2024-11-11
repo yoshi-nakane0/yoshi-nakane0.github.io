@@ -27,15 +27,31 @@
 }
 .schedule-table {
   width: 100%;
-  border-collapse: collapse;
-  table-layout: auto; 
-}
-.schedule-table-container { /* スクロールを有効にするためのコンテナ */
-  overflow-x: auto;
-}
-.schedule-table{
   height: 100%;
   border-collapse: collapse;
+  table-layout: fixed; 
+}
+.schedule-table th:nth-child(1), 
+.schedule-table th:nth-child(2),
+.schedule-table th:nth-child(4),
+.schedule-table td:nth-child(4) {
+  width: 40px;
+}
+.schedule-table th:nth-child(3),
+.schedule-table td:nth-child(3) {
+  width: 300px;
+}
+.schedule-table th:nth-child(5),
+.schedule-table th:nth-child(6),
+.schedule-table th:nth-child(7),
+.schedule-table td:nth-child(7) {
+  width: 80px;
+}
+
+
+
+.schedule-table-container { /* スクロールを有効にするためのコンテナ */
+  overflow-x: auto;
 }
 .schedule-table td {
   padding: 3px; /* セルのパディングを小さく */
@@ -56,7 +72,7 @@
 .important-impact{
   color: #fbb0b0; /* 赤色のテキスト */
 }
-.schedule-table td:nth-child(1), /* 時間 */
+.schedule-table td:nth-child(1),
 .schedule-table td:nth-child(2), /* 国 */
 .schedule-table td:nth-child(4), /* 重要度 */
 .schedule-table td:nth-child(5), /* 前回 */
