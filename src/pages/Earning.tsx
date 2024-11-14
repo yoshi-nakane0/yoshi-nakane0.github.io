@@ -31,8 +31,8 @@ const EarningsTable = () => {
     }
   };
 
-  const epsOptions = ['○', '×'];
-  const salesOptions = ['○', '×'];
+  const epsOptions = ['⭕️', '❌'];
+  const salesOptions = ['⭕️', '❌'];
 
   const handleEpsChange = (index, value) => {
     const updatedData = [...earningsDataState];
