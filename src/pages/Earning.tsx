@@ -1,5 +1,5 @@
 //Earning.tsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import earningData from '../context/earning.json';
 import '../styles/earning.css';
 
@@ -13,6 +13,17 @@ const EarningsTable = () => {
     });
 
   const [earningsDataState, setEarningsDataState] = useState(sortedData);
+
+  useEffect(() => {
+    const savedData = localStorage.getItem('earningsData');
+    if (savedData) {
+      setEarningsDataState(JSON.parse(savedData));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('earningsData', JSON.stringify(earningsDataState));
+  }, [earningsDataState]);
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
@@ -45,7 +56,6 @@ const EarningsTable = () => {
     updatedData[index].sales1 = value;
     setEarningsDataState(updatedData);
   };
-
   return (
     <div className="earnings-table-container">
       <div className="status-bar">
