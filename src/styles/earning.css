@@ -32,7 +32,7 @@
     font-size: 16px;
 }
 .circle select {
-    font-size: 30px;
+    font-size: 20px;
     background-color: #555; /* ダークグレーの背景 */
     color: #eee; /* 明るいグレーのテキスト */
     appearance: none; /* ブラウザ固有のスタイルを削除 */
