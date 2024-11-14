@@ -24,10 +24,29 @@
 
 .earnings-table th, 
 .earnings-table td {
-    padding: 8px;
+    padding: 5px;
     border:1px solid #717170;
 }
 .circle {
     text-align: center;
     font-size: 16px;
+}
+.circle select {
+    font-size: 30px;
+    background-color: #555; /* ダークグレーの背景 */
+    color: #eee; /* 明るいグレーのテキスト */
+    appearance: none; /* ブラウザ固有のスタイルを削除 */
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.circle select option {
+    background-color: #333; /* ダークな背景 */
+    color: #eee; /* 明るいテキスト */
+}
+
+/* select要素にフォーカスが当たった時のスタイル */
+.circle select:focus {
+    outline: none; /* デフォルトのフォーカススタイルを削除 */
+    box-shadow: 0 0 3px #64b5f6; /* 青色の影を追加 (お好みで調整) */
 }
