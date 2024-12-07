@@ -14,8 +14,8 @@ const SchedulePage: React.FC = () => {
   }, {} as { [date: string]: typeof data });
 
   return (
-    <div className="schedule-container"> 
-      <div className="status-bar"> 
+    <div className="schedule-container">
+      <div className="status-bar">
         <button className="status-bar-item" onClick={() => { window.location.href = '/'; }}>
           ホーム
         </button>
@@ -26,21 +26,21 @@ const SchedulePage: React.FC = () => {
           リンク
         </button>
       </div>
-      
+
       <div className="schedule-content">
         {Object.entries(groupedEvents)
           .filter(([date]) => showPastEvents || date >= today)
           .map(([date, events]) => (
             <div key={date} className="schedule-date">
               <h2 className="schedule-date-title">{date}</h2>
-              <div className="schedule-table-container"> {/* スクロール可能なコンテナを追加 */}
+              <div className="schedule-table-container">
                 <table className="schedule-table">
                   <thead>
                     <tr>
                       <th>時間</th>
                       <th>国</th>
                       <th>指標</th>
-                      <th>⭐️</th>                    
+                      <th>⭐️</th>
                       <th>前回</th>
                       <th>予想</th>
                       <th>結果</th>
@@ -51,12 +51,12 @@ const SchedulePage: React.FC = () => {
                       <tr key={index}>
                         <td>{item.time || '-'}</td>
                         <td>{item.currency || '-'}</td>
-                        <td className={item.impact === '★★' ? 'important-event' : ''}>
+                        <td className={item.impact === '★★★' ? 'important-event' : ''}>
                           {item.event.length > 30 ? item.event.substring(0, 30) + "..." : item.event}
                         </td>
-                        <td className={item.impact === '★★' ? 'important-impact' : item.impact === '★' ? 'medium-event' : ''}>
+                        <td className={item.impact === '★★★' ? 'important-impact' : ''}>
                           {item.impact || '-'}
-                        </td>                        
+                        </td>
                         <td>{item.previous || '-'}</td>
                         <td>{item.forecast || '-'}</td>
                         <td>{item.actual || '-'}</td>
