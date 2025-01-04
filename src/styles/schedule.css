@@ -35,17 +35,17 @@
 .schedule-table th:nth-child(2),
 .schedule-table th:nth-child(4),
 .schedule-table td:nth-child(4) {
-  width: 40px;
+  width: 50px;
 }
 .schedule-table th:nth-child(3),
 .schedule-table td:nth-child(3) {
-  width: 300px;
+  width: 250px;
 }
 .schedule-table th:nth-child(5),
 .schedule-table th:nth-child(6),
 .schedule-table th:nth-child(7),
 .schedule-table td:nth-child(7) {
-  width: 80px;
+  width: 70px;
 }
 
 
