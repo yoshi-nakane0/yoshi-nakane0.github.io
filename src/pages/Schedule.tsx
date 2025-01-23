@@ -41,9 +41,6 @@ const SchedulePage: React.FC = () => {
                       <th>国</th>
                       <th>指標</th>
                       <th>⭐️</th>
-                      <th>前回</th>
-                      <th>予想</th>
-                      <th>結果</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -57,9 +54,6 @@ const SchedulePage: React.FC = () => {
                         <td className={item.impact === '★★★' ? 'important-impact' : ''}>
                           {item.impact || '-'}
                         </td>
-                        <td>{item.previous || '-'}</td>
-                        <td>{item.forecast || '-'}</td>
-                        <td>{item.actual || '-'}</td>
                       </tr>
                     ))}
                   </tbody>
