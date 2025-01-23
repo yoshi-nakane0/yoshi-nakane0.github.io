@@ -47,9 +47,6 @@
 .schedule-table td:nth-child(7) {
   width: 60px;
 }
-
-
-
 .schedule-table-container { /* スクロールを有効にするためのコンテナ */
   overflow-x: auto;
 }
@@ -75,8 +72,5 @@
 .schedule-table td:nth-child(1),
 .schedule-table td:nth-child(2), /* 国 */
 .schedule-table td:nth-child(4), /* 重要度 */
-.schedule-table td:nth-child(5), /* 前回 */
-.schedule-table td:nth-child(6), /* 予想 */
-.schedule-table td:nth-child(7) { /* 結果 */
   text-align: center;
 }
