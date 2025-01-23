@@ -4,3029 +4,3149 @@
         "time": "8:50",
         "currency": "日本",
         "event": "設備投資 前期比",
-        "impact": "★",
-        "previous": "7.40%",
-        "forecast": "6.70%",
-        "actual": "8.10%"
+        "impact": "★"
     },
     {
         "date": "2024-12-02",
         "time": "9:30",
         "currency": "日本",
         "event": "製造業購買担当者景気指数（PMI）確報値",
-        "impact": "★",
-        "previous": "49",
-        "forecast": "49",
-        "actual": "49"
+        "impact": "★"
     },
     {
         "date": "2024-12-02",
         "time": "23:45",
         "currency": "米国",
         "event": "製造業購買担当者景気指数（PMI）確報値",
-        "impact": "★★",
-        "previous": "48.8",
-        "forecast": "48.8",
-        "actual": "49.7"
+        "impact": "★★"
     },
     {
         "date": "2024-12-03",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM製造業景況指数",
-        "impact": "★★★",
-        "previous": "46.5",
-        "forecast": "47.7",
-        "actual": "48.4"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-03",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM製造業購買価格指数",
-        "impact": "★★",
-        "previous": "54.8",
-        "forecast": "55.2",
-        "actual": "50.3"
+        "impact": "★★"
     },
     {
         "date": "2024-12-03",
         "time": "0:00",
         "currency": "米国",
         "event": "建設支出 前月比",
-        "impact": "★",
-        "previous": "0.10%",
-        "forecast": "0.20%",
-        "actual": "0.40%"
+        "impact": "★"
     },
     {
         "date": "2024-12-03",
         "time": "5:15",
         "currency": "米国",
         "event": "FOMCメンバー ウォラー氏 講演",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-03",
         "time": "6:30",
         "currency": "米国",
         "event": "FOMCメンバー ウィリアムズ氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-03",
         "time": "8:50",
         "currency": "日本",
         "event": "マネタリーベース 前年同月比",
-        "impact": "★",
-        "previous": "-0.30%",
-        "forecast": "0.20%",
-        "actual": "-0.30%"
+        "impact": "★"
     },
     {
         "date": "2024-12-03",
         "time": "12:35",
         "currency": "日本",
         "event": "10年債入札",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-04",
         "time": "0:00",
         "currency": "米国",
         "event": "雇用動態調査（JOLTS）求人件数",
-        "impact": "★★★",
-        "previous": "7.37M",
-        "forecast": "7.51M",
-        "actual": "7.74M"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-04",
         "time": "0:06",
         "currency": "米国",
         "event": "RCM/TIPP経済楽観度指数",
-        "impact": "★",
-        "previous": "53.2",
-        "forecast": "54.1",
-        "actual": "54"
+        "impact": "★"
     },
     {
         "date": "2024-12-04",
         "time": "0:00",
         "currency": "米国",
         "event": "ワーズ社 自動車販売台数",
-        "impact": "★",
-        "previous": "16.0M",
-        "forecast": "16.0M",
-        "actual": "16.5M"
+        "impact": "★"
     },
     {
         "date": "2024-12-04",
         "time": "2:35",
         "currency": "米国",
         "event": "FOMCメンバー クグラー氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-04",
         "time": "5:45",
         "currency": "米国",
         "event": "FOMCメンバー グールズビー氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-04",
         "time": "22:15",
         "currency": "米国",
         "event": "ADP全米雇用報告",
-        "impact": "★★★",
-        "previous": "184K",
-        "forecast": "152K",
-        "actual": "146K"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-04",
         "time": "22:45",
         "currency": "米国",
         "event": "FOMCメンバー ムサレム氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-04",
         "time": "23:45",
         "currency": "米国",
         "event": "サービス業購買担当者景気指数（PMI）確報値",
-        "impact": "★★",
-        "previous": "57",
-        "forecast": "57",
-        "actual": "56.1"
+        "impact": "★★"
     },
     {
         "date": "2024-12-05",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM非製造業景況指数",
-        "impact": "★★★",
-        "previous": "56",
-        "forecast": "55.7",
-        "actual": "52.1"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-05",
         "time": "0:00",
         "currency": "米国",
         "event": "製造業受注 前月比",
-        "impact": "★",
-        "previous": "-0.20%",
-        "forecast": "0.20%",
-        "actual": "0.20%"
+        "impact": "★"
     },
     {
         "date": "2024-12-05",
         "time": "0:30",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "-1.8M",
-        "forecast": "-1.6M",
-        "actual": "-5.1M"
+        "impact": "★★"
     },
     {
         "date": "2024-12-05",
         "time": "3:45",
         "currency": "米国",
         "event": "パウエルFRB議長 講演",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-05",
         "time": "4:00",
         "currency": "米国",
         "event": "地区連銀経済報告（ベージュブック）",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-05",
         "time": "12:35",
         "currency": "日本",
         "event": "30年債入札",
-        "impact": "★",
-        "previous": "2.27|3.4",
-        "forecast": "null",
-        "actual": "2.29|3.5"
+        "impact": "★"
     },
     {
         "date": "2024-12-05",
         "time": "0:00",
         "currency": "米国",
         "event": "OPEC-JMMC閣僚級監視委員会",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-05",
         "time": "21:30",
         "currency": "米国",
         "event": "チャレンジャー人員削減数 前年同月比",
-        "impact": "★",
-        "previous": "50.90%",
-        "forecast": "null",
-        "actual": "26.80%"
+        "impact": "★"
     },
     {
         "date": "2024-12-05",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "215K",
-        "forecast": "215K",
-        "actual": "224K"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-05",
         "time": "22:30",
         "currency": "米国",
         "event": "貿易収支",
-        "impact": "★",
-        "previous": "-83.8B",
-        "forecast": "-75.2B",
-        "actual": "-73.8B"
+        "impact": "★"
     },
     {
         "date": "2024-12-06",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "-2B",
-        "forecast": "-38B",
-        "actual": "-30B"
+        "impact": "★"
     },
     {
         "date": "2024-12-06",
         "time": "8:30",
         "currency": "日本",
         "event": "現金給与総額 前年同月比",
-        "impact": "★",
-        "previous": "2.50%",
-        "forecast": "2.60%",
-        "actual": "2.60%"
+        "impact": "★"
     },
     {
         "date": "2024-12-06",
         "time": "8:30",
         "currency": "日本",
         "event": "家計支出 前年同月比",
-        "impact": "★",
-        "previous": "-1.10%",
-        "forecast": "-2.60%",
-        "actual": "-1.30%"
+        "impact": "★"
     },
     {
         "date": "2024-12-06",
         "time": "14:00",
         "currency": "日本",
         "event": "景気先行指数",
-        "impact": "★",
-        "previous": "109.10%",
-        "forecast": "108.90%",
-        "actual": "108.60%"
+        "impact": "★"
     },
     {
         "date": "2024-12-06",
         "time": "22:30",
         "currency": "米国",
         "event": "平均時給 前月比",
-        "impact": "★★★",
-        "previous": "0.40%",
-        "forecast": "0.30%",
-        "actual": "0.40%"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-06",
         "time": "22:30",
         "currency": "米国",
         "event": "非農業部門雇用者数変化",
-        "impact": "★★★",
-        "previous": "36K",
-        "forecast": "218K",
-        "actual": "227K"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-06",
         "time": "22:30",
         "currency": "米国",
         "event": "失業率",
-        "impact": "★★★",
-        "previous": "4.10%",
-        "forecast": "4.10%",
-        "actual": "4.20%"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-06",
         "time": "23:15",
         "currency": "米国",
         "event": "FOMCメンバー ボウマン氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-07",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学消費者信頼感指数 速報値",
-        "impact": "★★",
-        "previous": "71.8",
-        "forecast": "73.3",
-        "actual": "74"
+        "impact": "★★"
     },
     {
         "date": "2024-12-07",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学期待インフレ率 速報値",
-        "impact": "★★",
-        "previous": "2.60%",
-        "forecast": "null",
-        "actual": "2.90%"
+        "impact": "★★"
     },
     {
         "date": "2024-12-07",
         "time": "0:30",
         "currency": "米国",
         "event": "FOMCメンバー グールズビー氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-07",
         "time": "2:00",
         "currency": "米国",
         "event": "FOMCメンバー ハマック氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-07",
         "time": "3:00",
         "currency": "米国",
         "event": "FOMCメンバー デイリー氏 講演",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-07",
         "time": "5:00",
         "currency": "米国",
         "event": "消費者信用残高 前月比",
-        "impact": "★",
-        "previous": "3.2B",
-        "forecast": "10.4B",
-        "actual": "19.2B"
+        "impact": "★"
     },
     {
         "date": "2024-12-09",
         "time": "8:50",
         "currency": "日本",
         "event": "銀行貸出 前年同月比",
-        "impact": "★",
-        "previous": "2.70%",
-        "forecast": "2.60%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-09",
         "time": "8:50",
         "currency": "日本",
         "event": "経常収支",
-        "impact": "★",
-        "previous": "1.27T",
-        "forecast": "2.28T",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-09",
         "time": "8:50",
         "currency": "日本",
         "event": "GDP物価指数 確報値 前年同月比",
-        "impact": "★",
-        "previous": "2.50%",
-        "forecast": "2.50%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-09",
         "time": "8:50",
         "currency": "日本",
         "event": "GDP 確報値 前期比",
-        "impact": "★",
-        "previous": "0.20%",
-        "forecast": "0.30%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-09",
         "time": "14:00",
         "currency": "日本",
         "event": "景気ウォッチャー調査",
-        "impact": "★",
-        "previous": "47.5",
-        "forecast": "47.3",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-10",
         "time": "0:00",
         "currency": "米国",
         "event": "卸売在庫 確報値 前月比",
-        "impact": "★",
-        "previous": "0.20%",
-        "forecast": "0.20%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-10",
         "time": "8:50",
         "currency": "日本",
         "event": "M2マネーストック 前年同月比",
-        "impact": "★",
-        "previous": "1.20%",
-        "forecast": "1.20%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-10",
         "time": "15:00",
         "currency": "日本",
         "event": "工作機械受注 速報値 前年同月比",
-        "impact": "★",
-        "previous": "9.30%",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-10",
         "time": "20:00",
         "currency": "米国",
         "event": "NFIB中小企業景況感指数",
-        "impact": "★",
-        "previous": "93.7",
-        "forecast": "94.6",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-10",
         "time": "0:00",
         "currency": "米国",
         "event": "OPEC総会",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-10",
         "time": "22:30",
         "currency": "米国",
         "event": "非農業部門労働生産性 改定値 前期比",
-        "impact": "★",
-        "previous": "2.20%",
-        "forecast": "2.30%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-10",
         "time": "22:30",
         "currency": "米国",
         "event": "単位労働コスト 改定値 前期比",
-        "impact": "★",
-        "previous": "1.90%",
-        "forecast": "1.30%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-11",
         "time": "8:50",
         "currency": "日本",
         "event": "BSI 大企業製造業景況判断指数",
-        "impact": "★",
-        "previous": "4.5",
-        "forecast": "1.8",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-11",
         "time": "8:50",
         "currency": "日本",
         "event": "生産者物価指数(PPI) 前年同月比",
-        "impact": "★",
-        "previous": "3.40%",
-        "forecast": "3.40%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-11",
         "time": "22:30",
         "currency": "米国",
         "event": "消費者物価指数(CPI)コア指数 前月比",
-        "impact": "★★★",
-        "previous": "0.30%",
-        "forecast": "0.30%",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-11",
         "time": "22:30",
         "currency": "米国",
         "event": "消費者物価指数(CPI) 前月比",
-        "impact": "★★★",
-        "previous": "0.20%",
-        "forecast": "0.30%",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-11",
         "time": "22:30",
         "currency": "米国",
         "event": "消費者物価指数(CPI) 前年同月比",
-        "impact": "★★★",
-        "previous": "2.60%",
-        "forecast": "2.70%",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-12",
         "time": "0:30",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "-5.1M",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-12",
         "time": "3:01",
         "currency": "米国",
         "event": "10年債入札",
-        "impact": "★",
-        "previous": "4.35|2.6",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-12",
         "time": "4:00",
         "currency": "米国",
         "event": "財政収支",
-        "impact": "★",
-        "previous": "-257.5B",
-        "forecast": "-325.0B",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-12",
         "time": "22:30",
         "currency": "米国",
         "event": "生産者物価指数(PPI)コア指数 前月比",
-        "impact": "★★★",
-        "previous": "0.30%",
-        "forecast": "0.20%",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-12",
         "time": "22:30",
         "currency": "米国",
         "event": "生産者物価指数(PPI) 前月比",
-        "impact": "★★★",
-        "previous": "0.20%",
-        "forecast": "0.30%",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-12",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "224K",
-        "forecast": "221K",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-13",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "-30B",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-13",
         "time": "3:01",
         "currency": "米国",
         "event": "30年債入札",
-        "impact": "★",
-        "previous": "4.61|2.6",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-13",
         "time": "8:50",
         "currency": "日本",
         "event": "短観 製造業業況判断指数",
-        "impact": "★",
-        "previous": "13",
-        "forecast": "13",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-13",
         "time": "8:50",
         "currency": "日本",
         "event": "短観 非製造業業況判断指数",
-        "impact": "★",
-        "previous": "34",
-        "forecast": "33",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-13",
         "time": "13:30",
         "currency": "日本",
         "event": "鉱工業生産 改定値 前月比",
-        "impact": "★",
-        "previous": "3.00%",
-        "forecast": "3.00%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-13",
         "time": "22:30",
         "currency": "米国",
         "event": "輸入物価指数 前月比",
-        "impact": "★",
-        "previous": "0.30%",
-        "forecast": "-0.20%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-16",
         "time": "8:50",
         "currency": "日本",
         "event": "機械受注 コア指数 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-16",
         "time": "9:30",
         "currency": "日本",
         "event": "製造業購買担当者景気指数(PMI) 速報値",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-16",
         "time": "13:30",
         "currency": "日本",
         "event": "第三次産業活動指数 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-16",
         "time": "22:30",
         "currency": "米国",
         "event": "ニューヨーク連銀製造業景気指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-16",
         "time": "23:45",
         "currency": "米国",
         "event": "製造業購買担当者景気指数(PMI) 速報値",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-16",
         "time": "23:45",
         "currency": "米国",
         "event": "サービス業購買担当者景気指数(PMI) 速報値",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-17",
         "time": "22:30",
         "currency": "米国",
         "event": "小売売上高 コア指数 前月比",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-17",
         "time": "22:30",
         "currency": "米国",
         "event": "小売売上高 前月比",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-17",
         "time": "23:15",
         "currency": "米国",
         "event": "設備稼働率",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-17",
         "time": "23:15",
         "currency": "米国",
         "event": "鉱工業生産 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-18",
         "time": "0:00",
         "currency": "米国",
         "event": "企業在庫 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-18",
         "time": "0:00",
         "currency": "米国",
         "event": "NAHB住宅市場指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-18",
         "time": "8:50",
         "currency": "日本",
         "event": "貿易収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-18",
         "time": "22:30",
         "currency": "米国",
         "event": "住宅建設許可件数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-18",
         "time": "22:30",
         "currency": "米国",
         "event": "経常収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-18",
         "time": "22:30",
         "currency": "米国",
         "event": "住宅着工件数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-19",
         "time": "0:30",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-19",
         "time": "4:00",
         "currency": "米国",
         "event": "FF金利(誘導目標)",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "4:00",
         "currency": "米国",
         "event": "FOMC経済見通し",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "4:00",
         "currency": "米国",
         "event": "FOMC声明",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "4:30",
         "currency": "米国",
         "event": "FOMC記者会見",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "15:30",
         "currency": "日本",
         "event": "日銀政策金利",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "15:30",
         "currency": "日本",
         "event": "日銀金融政策決定会合声明",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "15:30",
         "currency": "日本",
         "event": "日銀総裁記者会見",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "22:30",
         "currency": "米国",
         "event": "GDP 確報値 前期比",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-19",
         "time": "22:30",
         "currency": "米国",
         "event": "GDP物価指数 確報値 前期比",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-19",
         "time": "22:30",
         "currency": "米国",
         "event": "フィラデルフィア連銀製造業景気指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-20",
         "time": "0:00",
         "currency": "米国",
         "event": "中古住宅販売件数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-20",
         "time": "0:00",
         "currency": "米国",
         "event": "CB景気先行指数 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-20",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-20",
         "time": "6:00",
         "currency": "米国",
         "event": "TIC長期証券投資",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-20",
         "time": "8:30",
         "currency": "日本",
         "event": "全国消費者物価指数（コア） 前年同月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-20",
         "time": "22:30",
         "currency": "米国",
         "event": "個人消費支出（PCE）コア価格指数 前月比",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-20",
         "time": "22:30",
         "currency": "米国",
         "event": "個人所得 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-20",
         "time": "22:30",
         "currency": "米国",
         "event": "個人支出 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-21",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学消費者信頼感指数 改定値",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-21",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学期待インフレ率 改定値",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-24",
         "time": "0:00",
         "currency": "米国",
         "event": "コンファレンスボード消費者信頼感指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-24",
         "time": "8:50",
         "currency": "日本",
         "event": "金融政策決定会合議事要旨",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-24",
         "time": "22:30",
         "currency": "米国",
         "event": "耐久財受注（コア） 前月比",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-24",
         "time": "22:30",
         "currency": "米国",
         "event": "耐久財受注 前月比",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-25",
         "time": "0:00",
         "currency": "米国",
         "event": "新築住宅販売件数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-25",
         "time": "0:00",
         "currency": "米国",
         "event": "リッチモンド連銀製造業指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-25",
         "time": "14:00",
         "currency": "日本",
         "event": "日銀消費者物価指数（コア） 前年同月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-25",
         "time": "0:00",
         "currency": "米国",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-26",
         "time": "8:50",
         "currency": "日本",
         "event": "企業向けサービス価格指数 前年同月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-26",
         "time": "14:00",
         "currency": "日本",
         "event": "住宅着工件数 前年同月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-26",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2024-12-27",
         "time": "1:00",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-27",
         "time": "8:30",
         "currency": "日本",
         "event": "東京消費者物価指数（コア） 前年同月比",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-27",
         "time": "8:30",
         "currency": "日本",
         "event": "失業率",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-27",
         "time": "9:50",
         "currency": "日本",
         "event": "企業向けサービス価格指数 前年同月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-27",
         "time": "22:30",
         "currency": "米国",
         "event": "財貿易収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-27",
         "time": "22:30",
         "currency": "米国",
         "event": "卸売在庫 速報値 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-28",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-30",
         "time": "8:50",
         "currency": "日本",
         "event": "鉱工業生産 速報値 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-30",
         "time": "8:50",
         "currency": "日本",
         "event": "小売売上高 前年同月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-30",
         "time": "23:45",
         "currency": "米国",
         "event": "シカゴ購買部協会景気指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-31",
         "time": "0:00",
         "currency": "米国",
         "event": "中古住宅販売仮契約 前月比",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-31",
         "time": "0:00",
         "currency": "日本",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2024-12-31",
         "time": "23:00",
         "currency": "米国",
         "event": "S&P/ケース・シラー住宅価格指数（20都市） 前年同月比",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2024-12-31",
         "time": "23:00",
         "currency": "米国",
         "event": "住宅価格指数 前月比",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-01",
         "time": "0:00",
         "currency": "日本",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-01",
         "time": "0:00",
         "currency": "米国",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-02",
         "time": "0:00",
         "currency": "日本",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-02",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "220K",
-        "forecast": "222K",
-        "actual": "211K"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-02",
         "time": "23:45",
         "currency": "米国",
         "event": "製造業PMI・確報値",
-        "impact": "★★",
-        "previous": "48.3",
-        "forecast": "48.3",
-        "actual": "49.4"
+        "impact": "★★"
     },
     {
         "date": "2025-01-03",
         "time": "0:00",
         "currency": "米国",
         "event": "建設支出",
-        "impact": "★",
-        "previous": "0.50%",
-        "forecast": "0.30%",
-        "actual": "0.00%"
+        "impact": "★"
     },
     {
         "date": "2025-01-03",
         "time": "1:00",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "-4.2M",
-        "forecast": "-2.4M",
-        "actual": "-1.2M"
+        "impact": "★★"
     },
     {
         "date": "2025-01-03",
         "time": "0:00",
         "currency": "日本",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-04",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM製造業景況指数",
-        "impact": "★★★",
-        "previous": "48.4",
-        "forecast": "48.2",
-        "actual": "49.3"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-04",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM製造業価格",
-        "impact": "★★",
-        "previous": "50.3",
-        "forecast": "51.5",
-        "actual": "52.5"
+        "impact": "★★"
     },
     {
         "date": "2025-01-04",
         "time": "0:00",
         "currency": "米国",
         "event": "自動車販売台数",
-        "impact": "★",
-        "previous": "16.5M",
-        "forecast": "16.5M",
-        "actual": "16.8M"
+        "impact": "★"
     },
     {
         "date": "2025-01-04",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "-93B",
-        "forecast": "-127B",
-        "actual": "-116B"
+        "impact": "★"
     },
     {
         "date": "2025-01-04",
         "time": "1:00",
         "currency": "米国",
         "event": "FOMC委員バーキン発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-05",
         "time": "7:30",
         "currency": "米国",
         "event": "FOMC委員デイリー発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-05",
         "time": "7:30",
         "currency": "米国",
         "event": "FOMC委員クグラー発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-06",
         "time": "3:15",
         "currency": "米国",
         "event": "FOMC委員デイリー発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-06",
         "time": "23:30",
         "currency": "米国",
         "event": "FOMC委員クック発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-06",
         "time": "23:45",
         "currency": "米国",
         "event": "サービス業PMI・確報値",
-        "impact": "★★",
-        "previous": "58.5",
-        "forecast": "58.5",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-07",
         "time": "0:00",
         "currency": "米国",
         "event": "製造業受注",
-        "impact": "★",
-        "previous": "0.20%",
-        "forecast": "-0.30%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-07",
         "time": "8:50",
         "currency": "日本",
         "event": "マネタリーベース",
-        "impact": "★",
-        "previous": "-0.30%",
-        "forecast": "-0.20%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-07",
         "time": "12:35",
         "currency": "日本",
         "event": "10年債入札",
-        "impact": "★",
-        "previous": "1.08|3.1",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-07",
         "time": "22:00",
         "currency": "米国",
         "event": "FOMC委員バーキン発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-07",
         "time": "22:30",
         "currency": "米国",
         "event": "貿易収支",
-        "impact": "★",
-        "previous": "-73.8B",
-        "forecast": "-78.4B",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-08",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM非製造業景況指数",
-        "impact": "★★★",
-        "previous": "52.1",
-        "forecast": "53.2",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-08",
         "time": "0:00",
         "currency": "米国",
         "event": "JOLT求人件数",
-        "impact": "★★★",
-        "previous": "7.74M",
-        "forecast": "7.77M",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-08",
         "time": "14:00",
         "currency": "日本",
         "event": "消費者信頼感指数",
-        "impact": "★",
-        "previous": "36.4",
-        "forecast": "36.6",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-08",
         "time": "22:15",
         "currency": "米国",
         "event": "ADP雇用統計",
-        "impact": "★★★",
-        "previous": "146K",
-        "forecast": "131K",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-08",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "211K",
-        "forecast": "210K",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-08",
         "time": "22:30",
         "currency": "米国",
         "event": "FOMC委員ウォラー発言",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-09",
         "time": "0:30",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "-1.2M",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-09",
         "time": "3:01",
         "currency": "米国",
         "event": "10年債入札",
-        "impact": "★",
-        "previous": "4.24|2.7",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-09",
         "time": "4:00",
         "currency": "米国",
         "event": "FOMC議事録",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-09",
         "time": "5:00",
         "currency": "米国",
         "event": "消費者信用残高",
-        "impact": "★",
-        "previous": "19.2B",
-        "forecast": "9.0B",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-09",
         "time": "8:30",
         "currency": "日本",
         "event": "平均現金収入",
-        "impact": "★",
-        "previous": "2.20%",
-        "forecast": "2.70%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-09",
         "time": "12:35",
         "currency": "日本",
         "event": "30年債入札",
-        "impact": "★",
-        "previous": "2.29|3.5",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-09",
         "time": "21:30",
         "currency": "米国",
         "event": "チャレンジャー人員削減数",
-        "impact": "★",
-        "previous": "26.80%",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-09",
         "time": "23:00",
         "currency": "米国",
         "event": "FOMC委員ハーカー発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "0:00",
         "currency": "米国",
         "event": "卸売在庫",
-        "impact": "★",
-        "previous": "-0.20%",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "-116B",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "2:40",
         "currency": "米国",
         "event": "FOMC委員バーキン発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "3:01",
         "currency": "米国",
         "event": "30年債入札",
-        "impact": "★",
-        "previous": "4.54|2.4",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "3:30",
         "currency": "米国",
         "event": "FOMC委員シュミット発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "3:35",
         "currency": "米国",
         "event": "FOMC委員ボウマン発言",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "8:30",
         "currency": "日本",
         "event": "家計支出",
-        "impact": "★",
-        "previous": "-1.30%",
-        "forecast": "-0.80%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "14:00",
         "currency": "日本",
         "event": "景気先行指数",
-        "impact": "★",
-        "previous": "109.10%",
-        "forecast": "107.20%",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-10",
         "time": "22:30",
         "currency": "米国",
         "event": "平均時給",
-        "impact": "★★★",
-        "previous": "0.40%",
-        "forecast": "0.30%",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-10",
         "time": "22:30",
         "currency": "米国",
         "event": "非農業部門雇用者数",
-        "impact": "★★★",
-        "previous": "227K",
-        "forecast": "154K",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-10",
         "time": "22:30",
         "currency": "米国",
         "event": "失業率",
-        "impact": "★★★",
-        "previous": "4.20%",
-        "forecast": "4.20%",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-11",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学消費者信頼感指数・速報値",
-        "impact": "★★",
-        "previous": "74",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-11",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学インフレ期待指数・速報値",
-        "impact": "★★",
-        "previous": "2.80%",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-13",
         "time": "0:00",
         "currency": "日本",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-13",
         "time": "15:00",
         "currency": "日本",
         "event": "機械受注",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-14",
         "time": "4:00",
         "currency": "米国",
         "event": "財政収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-14",
         "time": "8:50",
         "currency": "日本",
         "event": "銀行貸出",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-14",
         "time": "8:50",
         "currency": "日本",
         "event": "経常収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-14",
         "time": "14:00",
         "currency": "日本",
         "event": "景気ウォッチャー調査",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-14",
         "time": "20:00",
         "currency": "米国",
         "event": "中小企業楽観指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-14",
         "time": "22:30",
         "currency": "米国",
         "event": "コア生産者物価指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-14",
         "time": "22:30",
         "currency": "米国",
         "event": "生産者物価指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-15",
         "time": "0:00",
         "currency": "米国",
         "event": "RCM/TIPP 経済楽観指数",
-        "impact": "★",
-        "previous": "54",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-15",
         "time": "8:50",
         "currency": "日本",
         "event": "マネーサプライM2",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-15",
         "time": "22:30",
         "currency": "米国",
         "event": "コア消費者物価指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-15",
         "time": "22:30",
         "currency": "米国",
         "event": "消費者物価指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-15",
         "time": "22:30",
         "currency": "米国",
         "event": "消費者物価指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-15",
         "time": "22:30",
         "currency": "米国",
         "event": "ニューヨーク連銀製造業景気指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-16",
         "time": "0:30",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-16",
         "time": "4:00",
         "currency": "米国",
         "event": "地区連銀経済報告（ベージュブック）",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-16",
         "time": "8:50",
         "currency": "日本",
         "event": "生産者物価指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-16",
         "time": "22:30",
         "currency": "米国",
         "event": "コア小売売上高",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-16",
         "time": "22:30",
         "currency": "米国",
         "event": "小売売上高",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-16",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-16",
         "time": "22:30",
         "currency": "米国",
         "event": "フィラデルフィア連銀製造業景況指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-16",
         "time": "22:30",
         "currency": "米国",
         "event": "輸入物価指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-17",
         "time": "0:00",
         "currency": "米国",
         "event": "企業在庫",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-17",
         "time": "0:00",
         "currency": "米国",
         "event": "NAHB住宅市場指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-17",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-17",
         "time": "22:30",
         "currency": "米国",
         "event": "住宅建設許可件数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-17",
         "time": "22:30",
         "currency": "米国",
         "event": "住宅着工件数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-17",
         "time": "23:15",
         "currency": "米国",
         "event": "設備稼働率",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-17",
         "time": "23:15",
         "currency": "米国",
         "event": "鉱工業生産",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-18",
         "time": "6:00",
         "currency": "米国",
         "event": "対外証券投資",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-20",
         "time": "8:50",
         "currency": "日本",
         "event": "機械受注",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-20",
         "time": "13:30",
         "currency": "日本",
         "event": "鉱工業生産",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-20",
         "time": "13:30",
         "currency": "日本",
         "event": "第三次産業活動指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-20",
         "time": "0:00",
         "currency": "米国",
         "event": "WEF年次総会",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-20",
         "time": "0:00",
         "currency": "米国",
         "event": "祝日",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-21",
         "time": "14:00",
         "currency": "日本",
         "event": "BOJコアCPI",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-21",
         "time": "0:00",
         "currency": "米国",
         "event": "WEF年次総会",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-22",
         "time": "0:00",
         "currency": "米国",
         "event": "WEF年次総会",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-23",
         "time": "0:00",
         "currency": "米国",
         "event": "CB景気先行指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-23",
         "time": "8:50",
         "currency": "日本",
         "event": "貿易収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-23",
         "time": "0:00",
         "currency": "米国",
         "event": "WEF年次総会",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-23",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-24",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-24",
         "time": "1:00",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-24",
         "time": "8:30",
         "currency": "日本",
         "event": "全国消費者物価指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-24",
         "time": "9:30",
         "currency": "日本",
         "event": "製造業PMI・速報値",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-24",
         "time": "0:00",
         "currency": "日本",
         "event": "BOJ政策金利",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-24",
         "time": "0:00",
         "currency": "日本",
         "event": "金融政策声明",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-24",
         "time": "0:00",
         "currency": "日本",
         "event": "経済・物価情勢の展望",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-24",
         "time": "0:00",
         "currency": "日本",
         "event": "BOJ記者会見",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-24",
         "time": "0:00",
         "currency": "米国",
         "event": "WEF年次総会",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-24",
         "time": "23:45",
         "currency": "米国",
         "event": "製造業PMI・速報値",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-24",
         "time": "23:45",
         "currency": "米国",
         "event": "サービス業PMI・速報値",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-25",
         "time": "0:00",
         "currency": "米国",
         "event": "中古住宅販売件数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-25",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学消費者信頼感指数・改定値",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-25",
         "time": "0:00",
         "currency": "米国",
         "event": "ミシガン大学インフレ期待指数・改定値",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-28",
         "time": "0:00",
         "currency": "米国",
         "event": "新築住宅販売件数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-28",
         "time": "8:50",
         "currency": "日本",
         "event": "企業物価指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-28",
         "time": "22:30",
         "currency": "米国",
         "event": "コア耐久財受注",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-28",
         "time": "22:30",
         "currency": "米国",
         "event": "耐久財受注",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-28",
         "time": "23:00",
         "currency": "米国",
         "event": "S&P/ケース・シラー住宅価格指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-28",
         "time": "23:00",
         "currency": "米国",
         "event": "住宅価格指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-29",
         "time": "0:00",
         "currency": "米国",
         "event": "消費者信頼感指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-29",
         "time": "0:00",
         "currency": "米国",
         "event": "リッチモンド連銀製造業指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-29",
         "time": "8:50",
         "currency": "日本",
         "event": "金融政策決定会合議事要旨",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-29",
         "time": "14:00",
         "currency": "日本",
         "event": "消費者信頼感指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-29",
         "time": "22:30",
         "currency": "米国",
         "event": "貿易収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-29",
         "time": "22:30",
         "currency": "米国",
         "event": "卸売在庫",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-30",
         "time": "0:30",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-30",
         "time": "4:00",
         "currency": "米国",
         "event": "フェデラルファンド金利",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-30",
         "time": "4:00",
         "currency": "米国",
         "event": "FOMC声明",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-30",
         "time": "4:30",
         "currency": "米国",
         "event": "FOMC記者会見",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-30",
         "time": "14:00",
         "currency": "日本",
         "event": "住宅着工件数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-30",
         "time": "22:30",
         "currency": "米国",
         "event": "四半期GDP",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-30",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-30",
         "time": "22:30",
         "currency": "米国",
         "event": "四半期GDP価格指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-31",
         "time": "0:00",
         "currency": "米国",
         "event": "中古住宅販売仮契約",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-31",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-31",
         "time": "8:30",
         "currency": "日本",
         "event": "東京都区部消費者物価指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-01-31",
         "time": "8:30",
         "currency": "日本",
         "event": "失業率",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-31",
         "time": "8:50",
         "currency": "日本",
         "event": "鉱工業生産",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-31",
         "time": "8:50",
         "currency": "日本",
         "event": "小売売上高",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-31",
         "time": "22:30",
         "currency": "米国",
         "event": "コアPCE価格指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-31",
         "time": "22:30",
         "currency": "米国",
         "event": "雇用コスト指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-01-31",
         "time": "22:30",
         "currency": "米国",
         "event": "個人所得",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-31",
         "time": "22:30",
         "currency": "米国",
         "event": "個人支出",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-01-31",
         "time": "23:45",
         "currency": "米国",
         "event": "シカゴ購買部協会景気指数",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-02-03",
         "time": "8:50",
         "currency": "日本",
         "event": "BOJ 主な意見",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-03",
         "time": "9:30",
         "currency": "日本",
         "event": "製造業PMI・確報値",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-03",
         "time": "23:45",
         "currency": "米国",
         "event": "製造業PMI・確報値",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-02-04",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM製造業景況指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-02-04",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM製造業価格",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-02-04",
         "time": "0:00",
         "currency": "米国",
         "event": "建設支出",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-04",
         "time": "0:00",
         "currency": "米国",
         "event": "自動車販売台数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-04",
         "time": "4:00",
         "currency": "米国",
         "event": "融資担当者調査",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-04",
         "time": "8:50",
         "currency": "日本",
         "event": "マネタリーベース",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-04",
         "time": "12:35",
         "currency": "日本",
         "event": "10年債入札",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-05",
         "time": "0:00",
         "currency": "米国",
         "event": "JOLT求人件数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-02-05",
         "time": "0:00",
         "currency": "米国",
         "event": "製造業受注",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-05",
         "time": "0:00",
         "currency": "米国",
         "event": "RCM/TIPP 経済楽観指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-05",
         "time": "8:30",
         "currency": "日本",
         "event": "平均現金収入",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-05",
         "time": "22:15",
         "currency": "米国",
         "event": "ADP雇用統計",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-02-05",
         "time": "22:30",
         "currency": "米国",
         "event": "貿易収支",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-05",
         "time": "23:45",
         "currency": "米国",
         "event": "サービス業PMI・確報値",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-02-06",
         "time": "0:00",
         "currency": "米国",
         "event": "ISM非製造業景況指数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-02-06",
         "time": "0:30",
         "currency": "米国",
         "event": "原油在庫",
-        "impact": "★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★"
     },
     {
         "date": "2025-02-06",
         "time": "12:35",
         "currency": "日本",
         "event": "30年債入札",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-06",
         "time": "14:00",
         "currency": "日本",
         "event": "景気ウォッチャー調査",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-06",
         "time": "21:30",
         "currency": "米国",
         "event": "チャレンジャー人員削減数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-06",
         "time": "22:30",
         "currency": "米国",
         "event": "失業保険申請件数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-02-06",
         "time": "22:30",
         "currency": "米国",
         "event": "非農業部門労働生産性指数・速報値",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-06",
         "time": "22:30",
         "currency": "米国",
         "event": "単位労働費用・速報値",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-07",
         "time": "0:30",
         "currency": "米国",
         "event": "天然ガス貯蔵量",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-07",
         "time": "8:30",
         "currency": "日本",
         "event": "家計支出",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-07",
         "time": "14:00",
         "currency": "日本",
         "event": "景気先行指数",
-        "impact": "★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★"
     },
     {
         "date": "2025-02-07",
         "time": "22:30",
         "currency": "米国",
         "event": "平均時給",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-02-07",
         "time": "22:30",
         "currency": "米国",
         "event": "非農業部門雇用者数",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
     },
     {
         "date": "2025-02-07",
         "time": "22:30",
         "currency": "米国",
         "event": "失業率",
-        "impact": "★★★",
-        "previous": "null",
-        "forecast": "null",
-        "actual": "null"
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-07",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "天然ガス貯蔵量",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-07",
+        "time": "8:30",
+        "currency": "日本",
+        "event": "家計支出（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-07",
+        "time": "14:00",
+        "currency": "日本",
+        "event": "先行指標",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-07",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "平均時給（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-07",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "非農業部門雇用者数変化",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-07",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "失業率",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-08",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "ミシガン大学消費者信頼感指数速報値",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-08",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "ミシガン大学インフレ期待指数速報値",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-08",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "卸売在庫確報値（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-08",
+        "time": "5:00",
+        "currency": "米国",
+        "event": "消費者信用残高（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-10",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "銀行貸出（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-10",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "経常収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-10",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "クリーブランド連銀インフレ期待指数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-11",
+        "time": "0:00",
+        "currency": "日本",
+        "event": "銀行休業日",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-11",
+        "time": "15:00",
+        "currency": "日本",
+        "event": "工作機械受注速報値（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-11",
+        "time": "20:00",
+        "currency": "米国",
+        "event": "全米中小企業連盟（NFIB）中小企業楽観指数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-12",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "マネーサプライM2（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-12",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "コアCPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-12",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "CPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-12",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "CPI（前年比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "原油在庫",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "3:01",
+        "currency": "米国",
+        "event": "10年債入札",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "4:00",
+        "currency": "米国",
+        "event": "連邦財政収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "PPI（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "コアPPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "PPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "新規失業保険申請件数",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-13",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "財貿易収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "住宅ローン延滞率",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "天然ガス貯蔵量",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "3:01",
+        "currency": "米国",
+        "event": "30年債入札",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "コア小売売上高（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "小売売上高（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "輸入物価（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "23:15",
+        "currency": "米国",
+        "event": "設備稼働率",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-14",
+        "time": "23:15",
+        "currency": "米国",
+        "event": "鉱工業生産（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-15",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "企業在庫（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-17",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "GDP価格指数速報値（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-17",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "GDP速報値（前期比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-17",
+        "time": "13:30",
+        "currency": "日本",
+        "event": "鉱工業生産改定値（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-17",
+        "time": "13:30",
+        "currency": "日本",
+        "event": "第三次産業活動指数（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-17",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "銀行休業日",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-18",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "ニューヨーク連銀製造業景気指数",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-19",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "全米住宅建設業者協会（NAHB）住宅市場指数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-19",
+        "time": "6:00",
+        "currency": "米国",
+        "event": "対外証券投資（長期）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-19",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "機械受注（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-19",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "貿易収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-19",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "建設許可件数",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-19",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "住宅着工件数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-20",
+        "time": "4:00",
+        "currency": "米国",
+        "event": "FOMC議事録",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-20",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "新規失業保険申請件数",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-20",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "フィラデルフィア連銀製造業景気指数",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-21",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "コンファレンスボード（CB）先行指数（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-21",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "天然ガス貯蔵量",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-21",
+        "time": "1:00",
+        "currency": "米国",
+        "event": "原油在庫",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-21",
+        "time": "8:30",
+        "currency": "日本",
+        "event": "全国コアCPI（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-21",
+        "time": "9:30",
+        "currency": "日本",
+        "event": "フラッシュ製造業PMI",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-21",
+        "time": "23:45",
+        "currency": "米国",
+        "event": "フラッシュ製造業PMI",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-21",
+        "time": "23:45",
+        "currency": "米国",
+        "event": "フラッシュサービス業PMI",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-22",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "中古住宅販売件数",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-22",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "ミシガン大学消費者信頼感指数改定値",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-22",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "ミシガン大学インフレ期待指数改定値",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-24",
+        "time": "0:00",
+        "currency": "日本",
+        "event": "銀行休業日",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-25",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "企業物価指数（SPPI）（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-25",
+        "time": "14:00",
+        "currency": "日本",
+        "event": "日銀コアCPI（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-25",
+        "time": "23:00",
+        "currency": "米国",
+        "event": "S&P/ケースシラー住宅価格指数（20都市）（前年比）",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-25",
+        "time": "23:00",
+        "currency": "米国",
+        "event": "住宅価格指数（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-26",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "コンファレンスボード（CB）消費者信頼感指数",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-26",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "リッチモンド連銀製造業景気指数",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-27",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "新築住宅販売件数",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-27",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "原油在庫",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-27",
+        "time": "14:00",
+        "currency": "日本",
+        "event": "住宅着工件数（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-27",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "新規失業保険申請件数",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-27",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "コア耐久財受注（前月比）",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-27",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "耐久財受注（前月比）",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "中古住宅販売仮契約（前月比）",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "天然ガス貯蔵量",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "8:30",
+        "currency": "日本",
+        "event": "東京コアCPI（前年比）",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "鉱工業生産速報値（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "小売売上高（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "コアPCE価格指数（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "GDP速報値（前期比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "GDP価格指数速報値（前期比）",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "財貿易収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "個人所得（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "個人支出（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "卸売在庫速報値（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-02-28",
+        "time": "23:45",
+        "currency": "米国",
+        "event": "シカゴPMI",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-03-03",
+        "time": "9:30",
+        "currency": "日本",
+        "event": "製造業PMI確報値",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-03",
+        "time": "23:45",
+        "currency": "米国",
+        "event": "製造業PMI確報値",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "ISM製造業PMI",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "ISM製造業価格",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "建設支出（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "自動車販売台数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "8:30",
+        "currency": "日本",
+        "event": "失業率",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "設備投資（四半期比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "マネタリーベース（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "12:35",
+        "currency": "日本",
+        "event": "10年債入札",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-04",
+        "time": "14:00",
+        "currency": "日本",
+        "event": "消費者信頼感指数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-05",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "RCM/TIPP経済楽観指数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-05",
+        "time": "22:15",
+        "currency": "米国",
+        "event": "ADP雇用統計（非農業部門）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-05",
+        "time": "23:45",
+        "currency": "米国",
+        "event": "サービス業PMI確報値",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "ISMサービス業PMI",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "製造業受注（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "原油在庫",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "4:00",
+        "currency": "米国",
+        "event": "地区連銀経済報告（ベージュブック）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "8:30",
+        "currency": "日本",
+        "event": "平均現金所得（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "12:35",
+        "currency": "日本",
+        "event": "30年債入札",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "21:30",
+        "currency": "米国",
+        "event": "チャレンジャー人員削減数（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "新規失業保険申請件数",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "非農業部門生産性改定値（前期比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "単位労働費用改定値（前期比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-06",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "貿易収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-07",
+        "time": "0:00",
+        "currency": "米国",
+        "event": "卸売在庫確報値（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-07",
+        "time": "0:30",
+        "currency": "米国",
+        "event": "天然ガス貯蔵量",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-07",
+        "time": "14:00",
+        "currency": "日本",
+        "event": "エコノミスト景気ウォッチャー調査",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-07",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "平均時給（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-07",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "非農業部門雇用者数変化",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-07",
+        "time": "22:30",
+        "currency": "米国",
+        "event": "失業率",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-08",
+        "time": "1:00",
+        "currency": "米国",
+        "event": "連邦準備制度（FRB）金融政策報告",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-08",
+        "time": "5:00",
+        "currency": "米国",
+        "event": "消費者信用残高（前月比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-09",
+        "time": "16:00",
+        "currency": "米国",
+        "event": "夏時間開始",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-10",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "銀行貸出（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-10",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "経常収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-10",
+        "time": "14:00",
+        "currency": "日本",
+        "event": "先行指標",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-11",
+        "time": "8:30",
+        "currency": "日本",
+        "event": "家計支出（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-11",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "GDP価格指数確報値（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-11",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "GDP確報値（前期比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-11",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "マネーサプライM2（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-11",
+        "time": "15:00",
+        "currency": "日本",
+        "event": "工作機械受注速報値（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-11",
+        "time": "19:00",
+        "currency": "米国",
+        "event": "全米中小企業連盟（NFIB）中小企業楽観指数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-11",
+        "time": "23:00",
+        "currency": "米国",
+        "event": "求人労働異動調査（JOLTS）求人件数",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-12",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "BSI製造業指数",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-12",
+        "time": "8:50",
+        "currency": "日本",
+        "event": "PPI（前年比）",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-12",
+        "time": "21:30",
+        "currency": "米国",
+        "event": "コアCPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-12",
+        "time": "21:30",
+        "currency": "米国",
+        "event": "CPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-12",
+        "time": "21:30",
+        "currency": "米国",
+        "event": "CPI（前年比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-12",
+        "time": "23:30",
+        "currency": "米国",
+        "event": "原油在庫",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-03-13",
+        "time": "2:01",
+        "currency": "米国",
+        "event": "10年債入札",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-13",
+        "time": "3:00",
+        "currency": "米国",
+        "event": "連邦財政収支",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-13",
+        "time": "21:30",
+        "currency": "米国",
+        "event": "コアPPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-13",
+        "time": "21:30",
+        "currency": "米国",
+        "event": "PPI（前月比）",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-13",
+        "time": "21:30",
+        "currency": "米国",
+        "event": "新規失業保険申請件数",
+        "impact": "★★★"
+    },
+    {
+        "date": "2025-03-13",
+        "time": "23:30",
+        "currency": "米国",
+        "event": "天然ガス貯蔵量",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-14",
+        "time": "2:01",
+        "currency": "米国",
+        "event": "30年債入札",
+        "impact": "★"
+    },
+    {
+        "date": "2025-03-14",
+        "time": "23:00",
+        "currency": "米国",
+        "event": "ミシガン大学消費者信頼感指数速報値",
+        "impact": "★★"
+    },
+    {
+        "date": "2025-03-14",
+        "time": "23:00",
+        "currency": "米国",
+        "event": "ミシガン大学インフレ期待指数速報値",
+        "impact": "★★"
     }
 ]
