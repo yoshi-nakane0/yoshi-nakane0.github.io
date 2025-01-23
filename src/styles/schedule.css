@@ -39,14 +39,17 @@
 }
 .schedule-table th:nth-child(3),
 .schedule-table td:nth-child(3) {
-  width: 200px;
+  width: 250px;
 }
 .schedule-table th:nth-child(5),
 .schedule-table th:nth-child(6),
 .schedule-table th:nth-child(7),
 .schedule-table td:nth-child(7) {
-  width: 60px;
+  width: 70px;
 }
+
+
+
 .schedule-table-container { /* スクロールを有効にするためのコンテナ */
   overflow-x: auto;
 }
@@ -72,5 +75,8 @@
 .schedule-table td:nth-child(1),
 .schedule-table td:nth-child(2), /* 国 */
 .schedule-table td:nth-child(4), /* 重要度 */
+.schedule-table td:nth-child(5), /* 前回 */
+.schedule-table td:nth-child(6), /* 予想 */
+.schedule-table td:nth-child(7) { /* 結果 */
   text-align: center;
 }
