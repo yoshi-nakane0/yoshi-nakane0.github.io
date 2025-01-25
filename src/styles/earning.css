@@ -29,6 +29,20 @@
   background-color: #444;
 }
 
+.earnings-table a {
+  color: #64b5f6;      /* 明るめの青色 */
+  text-decoration: none;
+}
+
+.earnings-table a:hover {
+  color: #90caf9;      /* ホバー時さらに明るい青色 */
+  text-decoration: underline; /* ホバー時下線を追加して強調 */
+}
+
+.earnings-table a:visited {
+  color: #64b5f6;      /* 訪問済みリンクも同じ色に */
+}
+
 .circle {
   text-align: center;
   font-size: 16px;
