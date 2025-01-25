@@ -1,52 +1,86 @@
 /* Earning */
 .earnings-table-container {
-    width: 100%; /* 画面幅に合わせる */
-    color: #fff;
-    font-size: 14px;
-    background-color: #333;
+  width: 100%; /* 画面幅に合わせる */
+  color: #fff;
+  font-size: 14px;
+  background-color: #333;
 }
-.revenue-header {
-    white-space: nowrap; /* 折り返しを防ぐ */
-}
-.earnings-table {
-    width: 100%;
-    min-width: 700px;
-    background-color: #212121;
-    border-collapse: collapse;
-    margin-top: 50px;
-}
-.earnings-table td {
-    padding: 8px;
-    border: 1px solid #717170;
-    white-space: nowrap; /* セル内のテキストを折り返さない */
-}
-/* 必要に応じて、各列の幅などを調整 */
 
-.earnings-table th, 
+.revenue-header {
+  white-space: nowrap; /* 折り返しを防ぐ */
+}
+
+.earnings-table {
+  width: 100%;
+  min-width: 700px;
+  background-color: #212121;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+.earnings-table th,
 .earnings-table td {
-    padding: 5px;
-    border:1px solid #717170;
+  padding: 8px;
+  border: 1px solid #717170;
+  white-space: nowrap; /* セル内のテキストを折り返さない */
 }
+
+.earnings-table th {
+  background-color: #444;
+}
+
 .circle {
-    text-align: center;
-    font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
+
 .circle select {
-    font-size: 20px;
-    background-color: #555; /* ダークグレーの背景 */
-    color: #eee; /* 明るいグレーのテキスト */
-    appearance: none; /* ブラウザ固有のスタイルを削除 */
-    padding-left: 8px;
-    padding-right: 8px;
+  font-size: 20px;
+  background-color: #555; /* ダークグレーの背景 */
+  color: #eee; /* 明るいグレーのテキスト */
+  appearance: none; /* ブラウザ固有のスタイルを削除 */
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  border-radius: 4px;
 }
 
 .circle select option {
-    background-color: #333; /* ダークな背景 */
-    color: #eee; /* 明るいテキスト */
+  background-color: #333; /* ダークな背景 */
+  color: #eee; /* 明るいテキスト */
 }
 
-/* select要素にフォーカスが当たった時のスタイル */
 .circle select:focus {
-    outline: none; /* デフォルトのフォーカススタイルを削除 */
-    box-shadow: 0 0 3px #64b5f6; /* 青色の影を追加 (お好みで調整) */
+  outline: none; /* デフォルトのフォーカススタイルを削除 */
+  box-shadow: 0 0 3px #64b5f6; /* 青色の影を追加 (お好みで調整) */
+}
+
+/* ステータスバーのスタイル */
+.status-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #444;
+}
+
+.status-bar-item {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.status-bar-item:hover {
+  background-color: #666;
+}
+
+/* テーブルの行の背景色 */
+.earnings-table-row-even {
+  background-color: #2a2a2a;
+}
+
+.earnings-table-row-odd {
+  background-color: #1e1e1e;
 }
