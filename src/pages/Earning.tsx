@@ -1,4 +1,3 @@
-//Earning.tsx
 import React, { useState, useEffect } from 'react';
 import earningData from '../context/earning.json';
 import '../styles/earning.css';
@@ -13,6 +12,8 @@ interface EarningItem {
   sales1: string;
   sales2: string;
   near2: string;
+  market: string; // 追加
+  symbol: string; // 追加
 }
 
 const EarningsTable = () => {
@@ -68,6 +69,7 @@ const EarningsTable = () => {
     updatedData[index].sales1 = value;
     setEarningsDataState(updatedData);
   };
+
   return (
     <div className="earnings-table-container">
       <div className="status-bar">
@@ -94,8 +96,20 @@ const EarningsTable = () => {
             {earningsDataState.map((item, index) => (
               <tr key={index} className={index % 2 === 0 ? 'earnings-table-row-even' : 'earnings-table-row-odd'}>
                 <td>{formatDate(item.date)}</td>
-                <td>{item.company}</td>
+
+                {/* company部分をリンク化 */}
+                <td>
+                  <a
+                    href={`https://jp.tradingview.com/symbols/${item.market}-${item.symbol}/financials-earnings/?earnings-period=FQ&revenues-period=FQ`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {item.company}
+                  </a>
+                </td>
+
                 <td>{item.industry}</td>
+
                 <td className="circle">
                   <select value={item.eps1} onChange={(e) => handleEpsChange(index, e.target.value)}>
                     {epsOptions.map(option => (
@@ -103,6 +117,7 @@ const EarningsTable = () => {
                     ))}
                   </select>
                 </td>
+
                 <td className="circle">{item.eps2}</td>
                 <td className="circle" style={getNearestStyle(item.near1)}>
                   {item.near1.includes('上昇') && '↑'}
